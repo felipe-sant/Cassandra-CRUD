@@ -1,0 +1,2 @@
+def cadastrarCompra():
+    pass

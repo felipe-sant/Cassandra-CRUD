@@ -1,0 +1,2 @@
+def atualizarVendedor():
+    pass

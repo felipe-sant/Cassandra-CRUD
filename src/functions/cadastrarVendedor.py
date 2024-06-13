@@ -1,0 +1,2 @@
+def cadastrarVendedor():
+    pass

@@ -1,0 +1,39 @@
+from src.utils.limparTerminal import limparTerminal
+from src.functions.cadastrarVendedor import cadastrarVendedor
+from src.functions.listarVendedor import listarVendedor
+from src.functions.atualizarVendedor import atualizarVendedor
+from src.functions.deletarVendedor import deletarVendedor
+from src.layouts.menuAdicionarProduto import menuAdicionarProduto
+
+def menuVendedor():
+    while True:
+        limparTerminal()
+        
+        print("-=" * 20 + "-")
+        print("Menu Vendedor")
+        print("1 - Cadastrar Vendedor")
+        print("2 - Listar Vendedores")
+        print("3 - Atualizar Vendedor")
+        print("4 - Deletar Vendedor")
+        print("5 - Adicionar produto")
+        print("0 - Voltar")
+        print("-=" * 20 + "-")
+        
+        opcao = input("\nDigite a opção desejada: ")
+        
+        match opcao:
+            case "1":
+                cadastrarVendedor()
+            case "2":
+                listarVendedor()
+            case "3":
+                atualizarVendedor()
+            case "4":
+                deletarVendedor()
+            case "5":
+                menuAdicionarProduto(None, True)
+            case "0":
+                return
+            case _:
+                print("Opção inválida")
+                input()

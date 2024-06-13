@@ -1,0 +1,458 @@
+[
+    {
+        "label": "limparTerminal",
+        "importPath": "src.utils.limparTerminal",
+        "description": "src.utils.limparTerminal",
+        "isExtraImport": true,
+        "detail": "src.utils.limparTerminal",
+        "documentation": {}
+    },
+    {
+        "label": "limparTerminal",
+        "importPath": "src.utils.limparTerminal",
+        "description": "src.utils.limparTerminal",
+        "isExtraImport": true,
+        "detail": "src.utils.limparTerminal",
+        "documentation": {}
+    },
+    {
+        "label": "limparTerminal",
+        "importPath": "src.utils.limparTerminal",
+        "description": "src.utils.limparTerminal",
+        "isExtraImport": true,
+        "detail": "src.utils.limparTerminal",
+        "documentation": {}
+    },
+    {
+        "label": "limparTerminal",
+        "importPath": "src.utils.limparTerminal",
+        "description": "src.utils.limparTerminal",
+        "isExtraImport": true,
+        "detail": "src.utils.limparTerminal",
+        "documentation": {}
+    },
+    {
+        "label": "limparTerminal",
+        "importPath": "src.utils.limparTerminal",
+        "description": "src.utils.limparTerminal",
+        "isExtraImport": true,
+        "detail": "src.utils.limparTerminal",
+        "documentation": {}
+    },
+    {
+        "label": "limparTerminal",
+        "importPath": "src.utils.limparTerminal",
+        "description": "src.utils.limparTerminal",
+        "isExtraImport": true,
+        "detail": "src.utils.limparTerminal",
+        "documentation": {}
+    },
+    {
+        "label": "listarProduto",
+        "importPath": "src.functions.listarProduto",
+        "description": "src.functions.listarProduto",
+        "isExtraImport": true,
+        "detail": "src.functions.listarProduto",
+        "documentation": {}
+    },
+    {
+        "label": "listarProduto",
+        "importPath": "src.functions.listarProduto",
+        "description": "src.functions.listarProduto",
+        "isExtraImport": true,
+        "detail": "src.functions.listarProduto",
+        "documentation": {}
+    },
+    {
+        "label": "cadastrarCompra",
+        "importPath": "src.functions.cadastrarCompra",
+        "description": "src.functions.cadastrarCompra",
+        "isExtraImport": true,
+        "detail": "src.functions.cadastrarCompra",
+        "documentation": {}
+    },
+    {
+        "label": "listarCompra",
+        "importPath": "src.functions.listarCompra",
+        "description": "src.functions.listarCompra",
+        "isExtraImport": true,
+        "detail": "src.functions.listarCompra",
+        "documentation": {}
+    },
+    {
+        "label": "atualizarCompra",
+        "importPath": "src.functions.atualizarCompra",
+        "description": "src.functions.atualizarCompra",
+        "isExtraImport": true,
+        "detail": "src.functions.atualizarCompra",
+        "documentation": {}
+    },
+    {
+        "label": "deletarCompra",
+        "importPath": "src.functions.deletarCompra",
+        "description": "src.functions.deletarCompra",
+        "isExtraImport": true,
+        "detail": "src.functions.deletarCompra",
+        "documentation": {}
+    },
+    {
+        "label": "menuCompra",
+        "importPath": "src.layouts.menuCompra",
+        "description": "src.layouts.menuCompra",
+        "isExtraImport": true,
+        "detail": "src.layouts.menuCompra",
+        "documentation": {}
+    },
+    {
+        "label": "menuProduto",
+        "importPath": "src.layouts.menuProduto",
+        "description": "src.layouts.menuProduto",
+        "isExtraImport": true,
+        "detail": "src.layouts.menuProduto",
+        "documentation": {}
+    },
+    {
+        "label": "menuUsuario",
+        "importPath": "src.layouts.menuUsuario",
+        "description": "src.layouts.menuUsuario",
+        "isExtraImport": true,
+        "detail": "src.layouts.menuUsuario",
+        "documentation": {}
+    },
+    {
+        "label": "menuVendedor",
+        "importPath": "src.layouts.menuVendedor",
+        "description": "src.layouts.menuVendedor",
+        "isExtraImport": true,
+        "detail": "src.layouts.menuVendedor",
+        "documentation": {}
+    },
+    {
+        "label": "cadastrarProduto",
+        "importPath": "src.functions.cadastrarProduto",
+        "description": "src.functions.cadastrarProduto",
+        "isExtraImport": true,
+        "detail": "src.functions.cadastrarProduto",
+        "documentation": {}
+    },
+    {
+        "label": "atualizarProduto",
+        "importPath": "src.functions.atualizarProduto",
+        "description": "src.functions.atualizarProduto",
+        "isExtraImport": true,
+        "detail": "src.functions.atualizarProduto",
+        "documentation": {}
+    },
+    {
+        "label": "deletarProduto",
+        "importPath": "src.functions.deletarProduto",
+        "description": "src.functions.deletarProduto",
+        "isExtraImport": true,
+        "detail": "src.functions.deletarProduto",
+        "documentation": {}
+    },
+    {
+        "label": "cadastrarUsuario",
+        "importPath": "src.functions.cadastrarUsuario",
+        "description": "src.functions.cadastrarUsuario",
+        "isExtraImport": true,
+        "detail": "src.functions.cadastrarUsuario",
+        "documentation": {}
+    },
+    {
+        "label": "listarUsuario",
+        "importPath": "src.functions.listarUsuario",
+        "description": "src.functions.listarUsuario",
+        "isExtraImport": true,
+        "detail": "src.functions.listarUsuario",
+        "documentation": {}
+    },
+    {
+        "label": "atualizarUsuario",
+        "importPath": "src.functions.atualizarUsuario",
+        "description": "src.functions.atualizarUsuario",
+        "isExtraImport": true,
+        "detail": "src.functions.atualizarUsuario",
+        "documentation": {}
+    },
+    {
+        "label": "deletarUsuario",
+        "importPath": "src.functions.deletarUsuario",
+        "description": "src.functions.deletarUsuario",
+        "isExtraImport": true,
+        "detail": "src.functions.deletarUsuario",
+        "documentation": {}
+    },
+    {
+        "label": "menuAdicionarProduto",
+        "importPath": "src.layouts.menuAdicionarProduto",
+        "description": "src.layouts.menuAdicionarProduto",
+        "isExtraImport": true,
+        "detail": "src.layouts.menuAdicionarProduto",
+        "documentation": {}
+    },
+    {
+        "label": "menuAdicionarProduto",
+        "importPath": "src.layouts.menuAdicionarProduto",
+        "description": "src.layouts.menuAdicionarProduto",
+        "isExtraImport": true,
+        "detail": "src.layouts.menuAdicionarProduto",
+        "documentation": {}
+    },
+    {
+        "label": "cadastrarVendedor",
+        "importPath": "src.functions.cadastrarVendedor",
+        "description": "src.functions.cadastrarVendedor",
+        "isExtraImport": true,
+        "detail": "src.functions.cadastrarVendedor",
+        "documentation": {}
+    },
+    {
+        "label": "listarVendedor",
+        "importPath": "src.functions.listarVendedor",
+        "description": "src.functions.listarVendedor",
+        "isExtraImport": true,
+        "detail": "src.functions.listarVendedor",
+        "documentation": {}
+    },
+    {
+        "label": "atualizarVendedor",
+        "importPath": "src.functions.atualizarVendedor",
+        "description": "src.functions.atualizarVendedor",
+        "isExtraImport": true,
+        "detail": "src.functions.atualizarVendedor",
+        "documentation": {}
+    },
+    {
+        "label": "deletarVendedor",
+        "importPath": "src.functions.deletarVendedor",
+        "description": "src.functions.deletarVendedor",
+        "isExtraImport": true,
+        "detail": "src.functions.deletarVendedor",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "menuPrincipal",
+        "importPath": "src.layouts.menuPrincipal",
+        "description": "src.layouts.menuPrincipal",
+        "isExtraImport": true,
+        "detail": "src.layouts.menuPrincipal",
+        "documentation": {}
+    },
+    {
+        "label": "atualizarCompra",
+        "kind": 2,
+        "importPath": "src.functions.atualizarCompra",
+        "description": "src.functions.atualizarCompra",
+        "peekOfCode": "def atualizarCompra():\n    pass",
+        "detail": "src.functions.atualizarCompra",
+        "documentation": {}
+    },
+    {
+        "label": "atualizarProduto",
+        "kind": 2,
+        "importPath": "src.functions.atualizarProduto",
+        "description": "src.functions.atualizarProduto",
+        "peekOfCode": "def atualizarProduto():\n    pass",
+        "detail": "src.functions.atualizarProduto",
+        "documentation": {}
+    },
+    {
+        "label": "atualizarUsuario",
+        "kind": 2,
+        "importPath": "src.functions.atualizarUsuario",
+        "description": "src.functions.atualizarUsuario",
+        "peekOfCode": "def atualizarUsuario():\n    pass",
+        "detail": "src.functions.atualizarUsuario",
+        "documentation": {}
+    },
+    {
+        "label": "atualizarVendedor",
+        "kind": 2,
+        "importPath": "src.functions.atualizarVendedor",
+        "description": "src.functions.atualizarVendedor",
+        "peekOfCode": "def atualizarVendedor():\n    pass",
+        "detail": "src.functions.atualizarVendedor",
+        "documentation": {}
+    },
+    {
+        "label": "cadastrarCompra",
+        "kind": 2,
+        "importPath": "src.functions.cadastrarCompra",
+        "description": "src.functions.cadastrarCompra",
+        "peekOfCode": "def cadastrarCompra():\n    pass",
+        "detail": "src.functions.cadastrarCompra",
+        "documentation": {}
+    },
+    {
+        "label": "cadastrarProduto",
+        "kind": 2,
+        "importPath": "src.functions.cadastrarProduto",
+        "description": "src.functions.cadastrarProduto",
+        "peekOfCode": "def cadastrarProduto():\n    pass",
+        "detail": "src.functions.cadastrarProduto",
+        "documentation": {}
+    },
+    {
+        "label": "cadastrarUsuario",
+        "kind": 2,
+        "importPath": "src.functions.cadastrarUsuario",
+        "description": "src.functions.cadastrarUsuario",
+        "peekOfCode": "def cadastrarUsuario():\n    pass",
+        "detail": "src.functions.cadastrarUsuario",
+        "documentation": {}
+    },
+    {
+        "label": "cadastrarVendedor",
+        "kind": 2,
+        "importPath": "src.functions.cadastrarVendedor",
+        "description": "src.functions.cadastrarVendedor",
+        "peekOfCode": "def cadastrarVendedor():\n    pass",
+        "detail": "src.functions.cadastrarVendedor",
+        "documentation": {}
+    },
+    {
+        "label": "deletarCompra",
+        "kind": 2,
+        "importPath": "src.functions.deletarCompra",
+        "description": "src.functions.deletarCompra",
+        "peekOfCode": "def deletarCompra():\n    pass",
+        "detail": "src.functions.deletarCompra",
+        "documentation": {}
+    },
+    {
+        "label": "deletarProduto",
+        "kind": 2,
+        "importPath": "src.functions.deletarProduto",
+        "description": "src.functions.deletarProduto",
+        "peekOfCode": "def deletarProduto():\n    pass",
+        "detail": "src.functions.deletarProduto",
+        "documentation": {}
+    },
+    {
+        "label": "deletarUsuario",
+        "kind": 2,
+        "importPath": "src.functions.deletarUsuario",
+        "description": "src.functions.deletarUsuario",
+        "peekOfCode": "def deletarUsuario():\n    pass",
+        "detail": "src.functions.deletarUsuario",
+        "documentation": {}
+    },
+    {
+        "label": "deletarVendedor",
+        "kind": 2,
+        "importPath": "src.functions.deletarVendedor",
+        "description": "src.functions.deletarVendedor",
+        "peekOfCode": "def deletarVendedor():\n    pass",
+        "detail": "src.functions.deletarVendedor",
+        "documentation": {}
+    },
+    {
+        "label": "listarCompra",
+        "kind": 2,
+        "importPath": "src.functions.listarCompra",
+        "description": "src.functions.listarCompra",
+        "peekOfCode": "def listarCompra():\n    pass",
+        "detail": "src.functions.listarCompra",
+        "documentation": {}
+    },
+    {
+        "label": "listarProduto",
+        "kind": 2,
+        "importPath": "src.functions.listarProduto",
+        "description": "src.functions.listarProduto",
+        "peekOfCode": "def listarProduto():\n    pass",
+        "detail": "src.functions.listarProduto",
+        "documentation": {}
+    },
+    {
+        "label": "listarUsuario",
+        "kind": 2,
+        "importPath": "src.functions.listarUsuario",
+        "description": "src.functions.listarUsuario",
+        "peekOfCode": "def listarUsuario():\n    pass",
+        "detail": "src.functions.listarUsuario",
+        "documentation": {}
+    },
+    {
+        "label": "listarVendedor",
+        "kind": 2,
+        "importPath": "src.functions.listarVendedor",
+        "description": "src.functions.listarVendedor",
+        "peekOfCode": "def listarVendedor():\n    pass",
+        "detail": "src.functions.listarVendedor",
+        "documentation": {}
+    },
+    {
+        "label": "menuAdicionarProduto",
+        "kind": 2,
+        "importPath": "src.layouts.menuAdicionarProduto",
+        "description": "src.layouts.menuAdicionarProduto",
+        "peekOfCode": "def menuAdicionarProduto(colecao = None, isVendedor = False):\n    if colecao is None:\n        limparTerminal()\n        id = input(\"Digite o ID da coleção: \")\n    while True:\n        limparTerminal()\n        print(\"--\" * 21)\n        print(\"Menu Adicionar Produto\")\n        print(\"1 - Adicionar Produto\")\n        print(\"2 - Listar Produtos da coleção\")",
+        "detail": "src.layouts.menuAdicionarProduto",
+        "documentation": {}
+    },
+    {
+        "label": "menuCompra",
+        "kind": 2,
+        "importPath": "src.layouts.menuCompra",
+        "description": "src.layouts.menuCompra",
+        "peekOfCode": "def menuCompra():\n    while True:\n        limparTerminal()\n        print(\"-=\" * 20 + \"-\")\n        print(\"Menu Compra\")\n        print(\"1 - Cadastrar Compra\")\n        print(\"2 - Listar Compras\")\n        print(\"3 - Atualizar Compra\")\n        print(\"4 - Deletar Compra\")\n        print(\"0 - Voltar\")",
+        "detail": "src.layouts.menuCompra",
+        "documentation": {}
+    },
+    {
+        "label": "menuPrincipal",
+        "kind": 2,
+        "importPath": "src.layouts.menuPrincipal",
+        "description": "src.layouts.menuPrincipal",
+        "peekOfCode": "def menuPrincipal():\n    while True:\n        limparTerminal()\n        print(\"==\" * 21)\n        print(\"Menu Principal\")\n        print(\"1 - CRUD de Compras\")\n        print(\"2 - CRUD de Produtos\")\n        print(\"3 - CRUD de Usuários\")\n        print(\"4 - CRUD de Vendedores\")\n        print(\"0 - Sair\")",
+        "detail": "src.layouts.menuPrincipal",
+        "documentation": {}
+    },
+    {
+        "label": "menuProduto",
+        "kind": 2,
+        "importPath": "src.layouts.menuProduto",
+        "description": "src.layouts.menuProduto",
+        "peekOfCode": "def menuProduto():\n    while True:\n        limparTerminal()\n        print(\"-=\" * 20 + \"-\")\n        print(\"Menu Produto\")\n        print(\"1 - Cadastrar Produto\")\n        print(\"2 - Listar Produtos\")\n        print(\"3 - Atualizar Produto\")\n        print(\"4 - Deletar Produto\")\n        print(\"0 - Voltar\")",
+        "detail": "src.layouts.menuProduto",
+        "documentation": {}
+    },
+    {
+        "label": "menuUsuario",
+        "kind": 2,
+        "importPath": "src.layouts.menuUsuario",
+        "description": "src.layouts.menuUsuario",
+        "peekOfCode": "def menuUsuario():\n    while True:\n        limparTerminal()\n        print(\"-=\" * 20 + \"-\")\n        print(\"Menu Usuário\")\n        print(\"1 - Cadastrar Usuário\")\n        print(\"2 - Listar Usuários\")\n        print(\"3 - Atualizar Usuário\")\n        print(\"4 - Deletar Usuário\")\n        print(\"5 - Adicionar favorito\")",
+        "detail": "src.layouts.menuUsuario",
+        "documentation": {}
+    },
+    {
+        "label": "menuVendedor",
+        "kind": 2,
+        "importPath": "src.layouts.menuVendedor",
+        "description": "src.layouts.menuVendedor",
+        "peekOfCode": "def menuVendedor():\n    while True:\n        limparTerminal()\n        print(\"-=\" * 20 + \"-\")\n        print(\"Menu Vendedor\")\n        print(\"1 - Cadastrar Vendedor\")\n        print(\"2 - Listar Vendedores\")\n        print(\"3 - Atualizar Vendedor\")\n        print(\"4 - Deletar Vendedor\")\n        print(\"5 - Adicionar produto\")",
+        "detail": "src.layouts.menuVendedor",
+        "documentation": {}
+    },
+    {
+        "label": "limparTerminal",
+        "kind": 2,
+        "importPath": "src.utils.limparTerminal",
+        "description": "src.utils.limparTerminal",
+        "peekOfCode": "def limparTerminal():\n    os.system('cls' if os.name == 'nt' else 'clear')",
+        "detail": "src.utils.limparTerminal",
+        "documentation": {}
+    }
+]

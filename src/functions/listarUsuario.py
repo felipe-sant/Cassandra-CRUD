@@ -1,0 +1,2 @@
+def listarUsuario():
+    pass

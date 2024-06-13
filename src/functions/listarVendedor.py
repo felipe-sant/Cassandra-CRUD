@@ -1,0 +1,2 @@
+def listarVendedor():
+    pass
