@@ -1,8 +1,11 @@
 from src.utils.criarVendedor import criarVendedor
+from src.utils.criarProduto import criarProduto
+from src.utils.limparTerminal import limparTerminal
 
-vendedor = criarVendedor(isRequired=True)
-if vendedor:
-    print(vendedor)
+limparTerminal()
+produto = criarProduto(isRequired=True)
+if produto:
+    print(produto)
     input()
 else:
     print("Operação cancelada")

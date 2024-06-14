@@ -112,6 +112,14 @@
         "documentation": {}
     },
     {
+        "label": "Produto",
+        "importPath": "src.classes.produto",
+        "description": "src.classes.produto",
+        "isExtraImport": true,
+        "detail": "src.classes.produto",
+        "documentation": {}
+    },
+    {
         "label": "Usuario",
         "importPath": "src.classes.usuario",
         "description": "src.classes.usuario",
@@ -197,6 +205,14 @@
         "description": "src.database.connection",
         "isExtraImport": true,
         "detail": "src.database.connection",
+        "documentation": {}
+    },
+    {
+        "label": "limparTerminal",
+        "importPath": "src.utils.limparTerminal",
+        "description": "src.utils.limparTerminal",
+        "isExtraImport": true,
+        "detail": "src.utils.limparTerminal",
         "documentation": {}
     },
     {
@@ -432,6 +448,30 @@
         "documentation": {}
     },
     {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "solicitarInput",
         "importPath": "src.utils.solicitarInput",
         "description": "src.utils.solicitarInput",
@@ -448,19 +488,11 @@
         "documentation": {}
     },
     {
-        "label": "Optional",
-        "importPath": "typing",
-        "description": "typing",
+        "label": "solicitarInput",
+        "importPath": "src.utils.solicitarInput",
+        "description": "src.utils.solicitarInput",
         "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Optional",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
+        "detail": "src.utils.solicitarInput",
         "documentation": {}
     },
     {
@@ -486,6 +518,14 @@
         "description": "src.utils.criarVendedor",
         "isExtraImport": true,
         "detail": "src.utils.criarVendedor",
+        "documentation": {}
+    },
+    {
+        "label": "criarProduto",
+        "importPath": "src.utils.criarProduto",
+        "description": "src.utils.criarProduto",
+        "isExtraImport": true,
+        "detail": "src.utils.criarProduto",
         "documentation": {}
     },
     {
@@ -822,6 +862,15 @@
         "documentation": {}
     },
     {
+        "label": "criarProduto",
+        "kind": 2,
+        "importPath": "src.utils.criarProduto",
+        "description": "src.utils.criarProduto",
+        "peekOfCode": "def criarProduto(isRequired: bool) -> Optional[Produto]:\n    try:\n        nome = solicitarInput(\"Digite o nome do produto: \", isRequired)\n        descricao = solicitarInput(\"Digite a descrição do produto: \", isRequired)\n        preco = float(solicitarInput(\"Digite o preço do produto: \", isRequired))\n        estoque = int(solicitarInput(\"Digite o estoque do produto: \", isRequired))\n        produto = Produto(nome=nome, descricao=descricao, preco=preco, estoque=estoque)\n        produto.validate()\n        return produto\n    except Exception as e:",
+        "detail": "src.utils.criarProduto",
+        "documentation": {}
+    },
+    {
         "label": "criarUsuario",
         "kind": 2,
         "importPath": "src.utils.criarUsuario",
@@ -858,11 +907,11 @@
         "documentation": {}
     },
     {
-        "label": "vendedor",
+        "label": "produto",
         "kind": 5,
         "importPath": "index",
         "description": "index",
-        "peekOfCode": "vendedor = criarVendedor(isRequired=True)\nif vendedor:\n    print(vendedor)\n    input()\nelse:\n    print(\"Operação cancelada\")\n    input()",
+        "peekOfCode": "produto = criarProduto(isRequired=True)\nif produto:\n    print(produto)\n    input()\nelse:\n    print(\"Operação cancelada\")\n    input()",
         "detail": "index",
         "documentation": {}
     }
