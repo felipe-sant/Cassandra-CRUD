@@ -28,7 +28,7 @@ compra = {
 
 produto = {
     "_id": "1",
-    "nome": "Produto 1",
+    "nome": "Produto 25",
     "descricao": "Descrição do produto 1",
     "preco": 10.0,
     "estoque": 10,
@@ -67,3 +67,10 @@ vendedor = {
         }
     ]
 }
+
+produtoObj = Produto.fromDict(produto)
+vendedorObj = Vendedor.fromDict(vendedor)
+
+vendedorObj.removeProduto("2")
+
+print(vendedorObj)

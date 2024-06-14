@@ -112,6 +112,14 @@
         "documentation": {}
     },
     {
+        "label": "Produto",
+        "importPath": "src.classes.produto",
+        "description": "src.classes.produto",
+        "isExtraImport": true,
+        "detail": "src.classes.produto",
+        "documentation": {}
+    },
+    {
         "label": "Usuario",
         "importPath": "src.classes.usuario",
         "description": "src.classes.usuario",
@@ -812,7 +820,7 @@
         "kind": 5,
         "importPath": "index",
         "description": "index",
-        "peekOfCode": "produto = {\n    \"_id\": \"1\",\n    \"nome\": \"Produto 1\",\n    \"descricao\": \"Descrição do produto 1\",\n    \"preco\": 10.0,\n    \"estoque\": 10,\n    \"vendedor\": {\n        \"_id\": \"1\",\n        \"nome\": \"Vendedor 1\",\n    }",
+        "peekOfCode": "produto = {\n    \"_id\": \"1\",\n    \"nome\": \"Produto 25\",\n    \"descricao\": \"Descrição do produto 1\",\n    \"preco\": 10.0,\n    \"estoque\": 10,\n    \"vendedor\": {\n        \"_id\": \"1\",\n        \"nome\": \"Vendedor 1\",\n    }",
         "detail": "index",
         "documentation": {}
     },
@@ -831,6 +839,24 @@
         "importPath": "index",
         "description": "index",
         "peekOfCode": "vendedor = {\n    \"_id\": \"1\",\n    \"nome\": \"Vendedor 1\",\n    \"rg\": \"123456789\",\n    \"produtos\": [\n        {\n            \"_id\": \"1\",\n            \"nome\": \"Produto 1\",\n            \"preco\": 10.0\n        },",
+        "detail": "index",
+        "documentation": {}
+    },
+    {
+        "label": "produtoObj",
+        "kind": 5,
+        "importPath": "index",
+        "description": "index",
+        "peekOfCode": "produtoObj = Produto.fromDict(produto)\nvendedorObj = Vendedor.fromDict(vendedor)\nvendedorObj.removeProduto(\"2\")\nprint(vendedorObj)",
+        "detail": "index",
+        "documentation": {}
+    },
+    {
+        "label": "vendedorObj",
+        "kind": 5,
+        "importPath": "index",
+        "description": "index",
+        "peekOfCode": "vendedorObj = Vendedor.fromDict(vendedor)\nvendedorObj.removeProduto(\"2\")\nprint(vendedorObj)",
         "detail": "index",
         "documentation": {}
     }
