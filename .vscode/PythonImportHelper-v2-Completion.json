@@ -1,5 +1,85 @@
 [
     {
+        "label": "DataAPIClient",
+        "importPath": "astrapy",
+        "description": "astrapy",
+        "isExtraImport": true,
+        "detail": "astrapy",
+        "documentation": {}
+    },
+    {
+        "label": "get_collection",
+        "importPath": "src.database.connection",
+        "description": "src.database.connection",
+        "isExtraImport": true,
+        "detail": "src.database.connection",
+        "documentation": {}
+    },
+    {
+        "label": "get_collection",
+        "importPath": "src.database.connection",
+        "description": "src.database.connection",
+        "isExtraImport": true,
+        "detail": "src.database.connection",
+        "documentation": {}
+    },
+    {
+        "label": "get_collection",
+        "importPath": "src.database.connection",
+        "description": "src.database.connection",
+        "isExtraImport": true,
+        "detail": "src.database.connection",
+        "documentation": {}
+    },
+    {
+        "label": "get_collection",
+        "importPath": "src.database.connection",
+        "description": "src.database.connection",
+        "isExtraImport": true,
+        "detail": "src.database.connection",
+        "documentation": {}
+    },
+    {
+        "label": "get_collection",
+        "importPath": "src.database.connection",
+        "description": "src.database.connection",
+        "isExtraImport": true,
+        "detail": "src.database.connection",
+        "documentation": {}
+    },
+    {
+        "label": "get_collection",
+        "importPath": "src.database.connection",
+        "description": "src.database.connection",
+        "isExtraImport": true,
+        "detail": "src.database.connection",
+        "documentation": {}
+    },
+    {
+        "label": "get_collection",
+        "importPath": "src.database.connection",
+        "description": "src.database.connection",
+        "isExtraImport": true,
+        "detail": "src.database.connection",
+        "documentation": {}
+    },
+    {
+        "label": "get_collection",
+        "importPath": "src.database.connection",
+        "description": "src.database.connection",
+        "isExtraImport": true,
+        "detail": "src.database.connection",
+        "documentation": {}
+    },
+    {
+        "label": "limparTerminal",
+        "importPath": "src.utils.limparTerminal",
+        "description": "src.utils.limparTerminal",
+        "isExtraImport": true,
+        "detail": "src.utils.limparTerminal",
+        "documentation": {}
+    },
+    {
         "label": "limparTerminal",
         "importPath": "src.utils.limparTerminal",
         "description": "src.utils.limparTerminal",
@@ -241,11 +321,110 @@
         "documentation": {}
     },
     {
-        "label": "menuPrincipal",
-        "importPath": "src.layouts.menuPrincipal",
-        "description": "src.layouts.menuPrincipal",
+        "label": "find",
+        "importPath": "src.database.find",
+        "description": "src.database.find",
         "isExtraImport": true,
-        "detail": "src.layouts.menuPrincipal",
+        "detail": "src.database.find",
+        "documentation": {}
+    },
+    {
+        "label": "get_astra_client",
+        "kind": 2,
+        "importPath": "src.database.connection",
+        "description": "src.database.connection",
+        "peekOfCode": "def get_astra_client():\n    token = \"AstraCS:oOlKCcZQyKHKMotcHthdJNdR:f1899e48a075523dad5f9139177794968b78a2c483d5ab2d231ab59f3221f8a0\"\n    client = DataAPIClient(token)\n    return client\ndef get_database(client, endpoint, namespace):\n    try:\n        db = client.get_database_by_api_endpoint(endpoint, namespace=namespace)\n        return db\n    except Exception as e:\n        print(f\"\\nErro ao conectar ao banco de dados. {e}\")",
+        "detail": "src.database.connection",
+        "documentation": {}
+    },
+    {
+        "label": "get_database",
+        "kind": 2,
+        "importPath": "src.database.connection",
+        "description": "src.database.connection",
+        "peekOfCode": "def get_database(client, endpoint, namespace):\n    try:\n        db = client.get_database_by_api_endpoint(endpoint, namespace=namespace)\n        return db\n    except Exception as e:\n        print(f\"\\nErro ao conectar ao banco de dados. {e}\")\n        return None\ndef get_collection(colecaoNome):\n    client = get_astra_client()\n    endpoint = \"https://ca67a19b-41aa-4b80-9f80-9d0f548e7522-us-east-2.apps.astra.datastax.com\"",
+        "detail": "src.database.connection",
+        "documentation": {}
+    },
+    {
+        "label": "get_collection",
+        "kind": 2,
+        "importPath": "src.database.connection",
+        "description": "src.database.connection",
+        "peekOfCode": "def get_collection(colecaoNome):\n    client = get_astra_client()\n    endpoint = \"https://ca67a19b-41aa-4b80-9f80-9d0f548e7522-us-east-2.apps.astra.datastax.com\"\n    namespace = \"mercadolivre\"\n    db = get_database(client, endpoint, namespace)\n    if db:\n        colecao = db.get_collection(colecaoNome)\n        return colecao\n    else:\n        return None",
+        "detail": "src.database.connection",
+        "documentation": {}
+    },
+    {
+        "label": "delete_all",
+        "kind": 2,
+        "importPath": "src.database.delete_all",
+        "description": "src.database.delete_all",
+        "peekOfCode": "def delete_all(colecaoNome: str) -> str | None:\n    try:\n        colecao = get_collection(colecaoNome)\n        colecao.delete_all()\n        return f\"Dados da coleção '{colecaoNome}' deletados com sucesso!\"\n    except Exception as e:\n        print(f\"\\nErro ao deletar dados da coleção '{colecaoNome}'. {e}\")\n        input()\n        return None",
+        "detail": "src.database.delete_all",
+        "documentation": {}
+    },
+    {
+        "label": "delete_many",
+        "kind": 2,
+        "importPath": "src.database.delete_many",
+        "description": "src.database.delete_many",
+        "peekOfCode": "def delete_many(colecaoNome: str, filtro: dict) -> str | None:\n    try:\n        colecao = get_collection(colecaoNome)\n        colecao.delete_many(filtro)\n        return f\"Dados deletados com sucesso!\"\n    except Exception as e:\n        print(f\"\\nErro ao deletar dados. {e}\")\n        input()\n        return None",
+        "detail": "src.database.delete_many",
+        "documentation": {}
+    },
+    {
+        "label": "delete_one",
+        "kind": 2,
+        "importPath": "src.database.delete_one",
+        "description": "src.database.delete_one",
+        "peekOfCode": "def delete_one(colecaoNome: str, filtro: dict) -> str | None:\n    try:\n        colecao = get_collection(colecaoNome)\n        colecao.delete_one(filtro)\n        return f\"Dado deletado com sucesso!\"\n    except Exception as e:\n        print(f\"\\nErro ao deletar dado. {e}\")\n        input()\n        return None",
+        "detail": "src.database.delete_one",
+        "documentation": {}
+    },
+    {
+        "label": "find",
+        "kind": 2,
+        "importPath": "src.database.find",
+        "description": "src.database.find",
+        "peekOfCode": "def find(colecaoNome: str, filtro: dict = None) -> list[dict] | None:\n    try:\n        colecao = get_collection(colecaoNome)\n        dados = colecao.find(filtro)\n        return dados\n    except Exception as e:\n        print(e)\n        return None",
+        "detail": "src.database.find",
+        "documentation": {}
+    },
+    {
+        "label": "find_one",
+        "kind": 2,
+        "importPath": "src.database.find_one",
+        "description": "src.database.find_one",
+        "peekOfCode": "def find_one(colecaoNome: str, filtro: dict = None) -> dict | None:\n    try:\n        colecao = get_collection(colecaoNome)\n        documento = colecao.find_one(filtro)\n        return documento\n    except Exception as e:\n        print(f\"\\nErro ao buscar dados. {e}\")\n        input()\n        return None",
+        "detail": "src.database.find_one",
+        "documentation": {}
+    },
+    {
+        "label": "insert_many",
+        "kind": 2,
+        "importPath": "src.database.insert_many",
+        "description": "src.database.insert_many",
+        "peekOfCode": "def insert_many(colecaoNome: str, dados: list[dict]) -> str | None:\n    try:\n        colecao = get_collection(colecaoNome)\n        colecao.insert_many(dados)\n        return f\"Dados inseridos com sucesso!\"\n    except Exception as e:\n        print(f\"\\nErro ao inserir dados. {e}\")\n        input()\n        return None",
+        "detail": "src.database.insert_many",
+        "documentation": {}
+    },
+    {
+        "label": "insert_one",
+        "kind": 2,
+        "importPath": "src.database.insert_one",
+        "description": "src.database.insert_one",
+        "peekOfCode": "def insert_one(colecaoNome: str, dado: dict) -> str | None:\n    try:\n        colecao = get_collection(colecaoNome)\n        colecao.insert_one(dado)\n        return f\"Dado adicionado com sucesso!\"\n    except Exception as e:\n        print(f\"\\nErro ao adicionar dado. {e}\")\n        input()\n        return None",
+        "detail": "src.database.insert_one",
+        "documentation": {}
+    },
+    {
+        "label": "update_one",
+        "kind": 2,
+        "importPath": "src.database.update_one",
+        "description": "src.database.update_one",
+        "peekOfCode": "def update_one(colecaoNome: str, dado: dict, filtro: dict) -> str | None:\n    try:\n        colecao = get_collection(colecaoNome)\n        colecao.update_one(filtro, {\"$set\": dado})\n        return f\"Dado atualizado com sucesso!\"\n    except Exception as e:\n        print(f\"\\nErro ao atualizar dado. {e}\")\n        input()\n        return None",
+        "detail": "src.database.update_one",
         "documentation": {}
     },
     {
@@ -453,6 +632,15 @@
         "description": "src.utils.limparTerminal",
         "peekOfCode": "def limparTerminal():\n    os.system('cls' if os.name == 'nt' else 'clear')",
         "detail": "src.utils.limparTerminal",
+        "documentation": {}
+    },
+    {
+        "label": "usuarios",
+        "kind": 5,
+        "importPath": "index",
+        "description": "index",
+        "peekOfCode": "usuarios = find(\"usuario\")\n# if usuario:\n#     print(usuario)\n#     input()\nif usuarios:\n    for usuario in usuarios:\n        print(usuario)\n        input()\nelse:\n    print(\"Nenhum usuário encontrado.\")",
+        "detail": "index",
         "documentation": {}
     }
 ]
