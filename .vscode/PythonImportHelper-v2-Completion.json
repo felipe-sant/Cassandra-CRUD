@@ -112,14 +112,6 @@
         "documentation": {}
     },
     {
-        "label": "Produto",
-        "importPath": "src.classes.produto",
-        "description": "src.classes.produto",
-        "isExtraImport": true,
-        "detail": "src.classes.produto",
-        "documentation": {}
-    },
-    {
         "label": "Usuario",
         "importPath": "src.classes.usuario",
         "description": "src.classes.usuario",
@@ -440,6 +432,22 @@
         "documentation": {}
     },
     {
+        "label": "solicitarInput",
+        "importPath": "src.utils.solicitarInput",
+        "description": "src.utils.solicitarInput",
+        "isExtraImport": true,
+        "detail": "src.utils.solicitarInput",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "os",
         "kind": 6,
         "isExtraImport": true,
@@ -449,19 +457,11 @@
         "documentation": {}
     },
     {
-        "label": "Vendedor",
-        "importPath": "src.classes.vendedor",
-        "description": "src.classes.vendedor",
+        "label": "criarUsuario",
+        "importPath": "src.utils.criarUsuario",
+        "description": "src.utils.criarUsuario",
         "isExtraImport": true,
-        "detail": "src.classes.vendedor",
-        "documentation": {}
-    },
-    {
-        "label": "Compra",
-        "importPath": "src.classes.compra",
-        "description": "src.classes.compra",
-        "isExtraImport": true,
-        "detail": "src.classes.compra",
+        "detail": "src.utils.criarUsuario",
         "documentation": {}
     },
     {
@@ -798,6 +798,15 @@
         "documentation": {}
     },
     {
+        "label": "criarUsuario",
+        "kind": 2,
+        "importPath": "src.utils.criarUsuario",
+        "description": "src.utils.criarUsuario",
+        "peekOfCode": "def criarUsuario(isRequired: bool) -> Optional[Usuario]:\n    try:\n        nome = solicitarInput(\"Digite o nome do usuário: \", isRequired)\n        endereco = solicitarInput(\"Digite o endereço do usuário: \", isRequired)\n        rg = solicitarInput(\"Digite o RG do usuário: \", isRequired)\n        usuario = Usuario(nome=nome, endereco=endereco, rg=rg)\n        usuario.validate()\n        return usuario\n    except Exception as e:\n        print(f\"\\nErro ao criar usuário: {e}\")",
+        "detail": "src.utils.criarUsuario",
+        "documentation": {}
+    },
+    {
         "label": "limparTerminal",
         "kind": 2,
         "importPath": "src.utils.limparTerminal",
@@ -807,57 +816,12 @@
         "documentation": {}
     },
     {
-        "label": "compra",
-        "kind": 5,
-        "importPath": "index",
-        "description": "index",
-        "peekOfCode": "compra = {\n    \"_id\": \"1\",\n    \"dataCompra\": '2021-09-01',\n    \"valorTotal\": 100.0,\n    \"usuario\": {\n        \"_id\": \"1\",\n        \"nome\": \"João\",\n        \"endereco\": \"Rua 1\",\n    },\n    \"produtos\": [",
-        "detail": "index",
-        "documentation": {}
-    },
-    {
-        "label": "produto",
-        "kind": 5,
-        "importPath": "index",
-        "description": "index",
-        "peekOfCode": "produto = {\n    \"_id\": \"1\",\n    \"nome\": \"Produto 25\",\n    \"descricao\": \"Descrição do produto 1\",\n    \"preco\": 10.0,\n    \"estoque\": 10,\n    \"vendedor\": {\n        \"_id\": \"1\",\n        \"nome\": \"Vendedor 1\",\n    }",
-        "detail": "index",
-        "documentation": {}
-    },
-    {
-        "label": "usuario",
-        "kind": 5,
-        "importPath": "index",
-        "description": "index",
-        "peekOfCode": "usuario = {\n    \"_id\": \"2\",\n    \"nome\": \"Pedro Augusto\",\n    \"endereco\": \"Rua 1\",\n    \"rg\": \"123456789\"\n}\nvendedor = {\n    \"_id\": \"1\",\n    \"nome\": \"Vendedor 1\",\n    \"rg\": \"123456789\",",
-        "detail": "index",
-        "documentation": {}
-    },
-    {
-        "label": "vendedor",
-        "kind": 5,
-        "importPath": "index",
-        "description": "index",
-        "peekOfCode": "vendedor = {\n    \"_id\": \"1\",\n    \"nome\": \"Vendedor 1\",\n    \"rg\": \"123456789\",\n    \"produtos\": [\n        {\n            \"_id\": \"1\",\n            \"nome\": \"Produto 1\",\n            \"preco\": 10.0\n        },",
-        "detail": "index",
-        "documentation": {}
-    },
-    {
-        "label": "produtoObj",
-        "kind": 5,
-        "importPath": "index",
-        "description": "index",
-        "peekOfCode": "produtoObj = Produto.fromDict(produto)\nvendedorObj = Vendedor.fromDict(vendedor)\nvendedorObj.removeProduto(\"2\")\nprint(vendedorObj)",
-        "detail": "index",
-        "documentation": {}
-    },
-    {
-        "label": "vendedorObj",
-        "kind": 5,
-        "importPath": "index",
-        "description": "index",
-        "peekOfCode": "vendedorObj = Vendedor.fromDict(vendedor)\nvendedorObj.removeProduto(\"2\")\nprint(vendedorObj)",
-        "detail": "index",
+        "label": "solicitarInput",
+        "kind": 2,
+        "importPath": "src.utils.solicitarInput",
+        "description": "src.utils.solicitarInput",
+        "peekOfCode": "def solicitarInput(prompt: str, isRequired: bool = False) -> str | None:\n    while True:\n        valor = input(prompt).strip()\n        if isRequired and not valor:\n            print(\"Valor não pode ser vazio\")\n            continue\n        else:\n            return valor\n# Path: src/utils/solicitarInput.py",
+        "detail": "src.utils.solicitarInput",
         "documentation": {}
     }
 ]
