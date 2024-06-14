@@ -1,4 +1,5 @@
 from src.classes.usuario import Usuario
+from src.classes.vendedor import Vendedor
 
 compra = {
     "_id": "1",
@@ -56,11 +57,15 @@ vendededor = {
             "_id": "2",
             "nome": "Produto 2",
             "preco": 20.0
+        },
+        {
+            "_id": "3",
+            "nome": "Produto 3",
+            "preco": 30.0
         }
     ]
 }
 
-usuario = Usuario.fromDict(compra["usuario"])
+vendedor = Vendedor.fromDict(produto["vendedor"])
 
-print()
-print(usuario.toDict())
+print(vendedor)

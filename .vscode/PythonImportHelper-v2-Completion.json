@@ -24,6 +24,30 @@
         "documentation": {}
     },
     {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "field",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "asdict",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
         "label": "DataAPIClient",
         "importPath": "astrapy",
         "description": "astrapy",
@@ -345,12 +369,29 @@
         "documentation": {}
     },
     {
+        "label": "Vendedor",
+        "importPath": "src.classes.vendedor",
+        "description": "src.classes.vendedor",
+        "isExtraImport": true,
+        "detail": "src.classes.vendedor",
+        "documentation": {}
+    },
+    {
         "label": "Usuario",
         "kind": 6,
         "importPath": "src.classes.usuario",
         "description": "src.classes.usuario",
         "peekOfCode": "class Usuario:\n    _id: str = field(default=None, repr=False)\n    nome: str = field(default=\"\")\n    endereco: str = field(default=\"\")\n    rg: str = field(default=\"\")\n    def __str__(self) -> str:\n        listagem = \"\"\n        listagem += f\"_id: {self._id}\\n\" if self._id is not None else \"\"\n        listagem += f\"nome: {self.nome}\\n\" if self.nome != \"\" else \"\"\n        listagem += f\"endereco: {self.endereco}\\n\" if self.endereco != \"\" else \"\"",
         "detail": "src.classes.usuario",
+        "documentation": {}
+    },
+    {
+        "label": "Vendedor",
+        "kind": 6,
+        "importPath": "src.classes.vendedor",
+        "description": "src.classes.vendedor",
+        "peekOfCode": "class Vendedor:\n    _id: str = field(default=None, repr=False)\n    nome: str = field(default=\"\")\n    rg: str = field(default=\"\")\n    produtos: list[dict[str, any]] = field(default_factory=list)\n    def __str__(self) -> str:\n        listagem = \"\"\n        listagem += f\"_id: {self._id}\\n\" if self._id is not None else \"\"\n        listagem += f\"nome: {self.nome}\\n\" if self.nome != \"\" else \"\"\n        listagem += f\"rg: {self.rg}\\n\" if self.rg != \"\" else \"\"",
+        "detail": "src.classes.vendedor",
         "documentation": {}
     },
     {
@@ -696,11 +737,11 @@
         "documentation": {}
     },
     {
-        "label": "usuario",
+        "label": "vendedor",
         "kind": 5,
         "importPath": "index",
         "description": "index",
-        "peekOfCode": "usuario = Usuario.fromDict(compra[\"usuario\"])\nprint()\nprint(usuario.toDict())",
+        "peekOfCode": "vendedor = Vendedor.fromDict(produto[\"vendedor\"])\nprint(vendedor)",
         "detail": "index",
         "documentation": {}
     }
