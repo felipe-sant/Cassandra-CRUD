@@ -1,5 +1,6 @@
 from src.utils.limparTerminal import limparTerminal
 from src.functions.listarProduto import listarProduto
+from src.utils.formatarTexto import formatarTexto_negrito
 
 def menuAdicionarProduto(colecao = None, isVendedor = False):
     if colecao is None:
@@ -10,7 +11,7 @@ def menuAdicionarProduto(colecao = None, isVendedor = False):
         limparTerminal()
         
         print("--" * 21)
-        print("Menu Adicionar Produto")
+        print(formatarTexto_negrito("Menu Adicionar Produto"))
         print("1 - Adicionar Produto")
         print("2 - Listar Produtos da coleção")
         print("3 - Listar Produtos Cadastrados")
@@ -34,3 +35,5 @@ def menuAdicionarProduto(colecao = None, isVendedor = False):
             case _:
                 print("Opção inválida")
                 input()
+                
+# Path: src/layouts/menuAdicionarProduto.py

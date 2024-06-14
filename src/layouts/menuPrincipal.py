@@ -3,13 +3,14 @@ from src.layouts.menuCompra import menuCompra
 from src.layouts.menuProduto import menuProduto
 from src.layouts.menuUsuario import menuUsuario
 from src.layouts.menuVendedor import menuVendedor
+from src.utils.formatarTexto import formatarTexto_negrito
 
 def menuPrincipal():
     while True:
         limparTerminal()
 
         print("==" * 21)
-        print("Menu Principal")
+        print(formatarTexto_negrito("Menu Principal"))
         print("1 - CRUD de Compras")
         print("2 - CRUD de Produtos")
         print("3 - CRUD de Usuários")
@@ -35,3 +36,5 @@ def menuPrincipal():
             case _:
                 print("Opção inválida")
                 input()
+                
+# Path: src/layouts/menuPrincipal.py

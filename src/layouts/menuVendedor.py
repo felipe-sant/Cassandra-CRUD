@@ -4,13 +4,14 @@ from src.functions.listarVendedor import listarVendedor
 from src.functions.atualizarVendedor import atualizarVendedor
 from src.functions.deletarVendedor import deletarVendedor
 from src.layouts.menuAdicionarProduto import menuAdicionarProduto
+from src.utils.formatarTexto import formatarTexto_negrito
 
 def menuVendedor():
     while True:
         limparTerminal()
         
         print("-=" * 20 + "-")
-        print("Menu Vendedor")
+        print(formatarTexto_negrito("Menu Vendedor"))
         print("1 - Cadastrar Vendedor")
         print("2 - Listar Vendedores")
         print("3 - Atualizar Vendedor")
@@ -37,3 +38,5 @@ def menuVendedor():
             case _:
                 print("Opção inválida")
                 input()
+                
+# Path: src/layouts/menuVendedor.py

@@ -4,13 +4,14 @@ from src.functions.listarUsuario import listarUsuario
 from src.functions.atualizarUsuario import atualizarUsuario
 from src.functions.deletarUsuario import deletarUsuario
 from src.layouts.menuAdicionarProduto import menuAdicionarProduto
+from src.utils.formatarTexto import formatarTexto_negrito
 
 def menuUsuario():
     while True:
         limparTerminal()
         
         print("-=" * 20 + "-")
-        print("Menu Usuário")
+        print(formatarTexto_negrito("Menu Usuário"))
         print("1 - Cadastrar Usuário")
         print("2 - Listar Usuários")
         print("3 - Atualizar Usuário")
@@ -37,3 +38,5 @@ def menuUsuario():
             case _:
                 print("Opção inválida")
                 input()
+                
+# Path: src/layouts/menuUsuario.py

@@ -3,13 +3,14 @@ from src.functions.cadastrarCompra import cadastrarCompra
 from src.functions.listarCompra import listarCompra
 from src.functions.atualizarCompra import atualizarCompra
 from src.functions.deletarCompra import deletarCompra
+from src.utils.formatarTexto import formatarTexto_negrito
 
 def menuCompra():
     while True:
         limparTerminal()
         
         print("-=" * 20 + "-")
-        print("Menu Compra")
+        print(formatarTexto_negrito("Menu Compra"))
         print("1 - Cadastrar Compra")
         print("2 - Listar Compras")
         print("3 - Atualizar Compra")
@@ -33,3 +34,5 @@ def menuCompra():
             case _:
                 print("Opção inválida")
                 input()
+                
+# Path: src/layouts/menuCompra.py

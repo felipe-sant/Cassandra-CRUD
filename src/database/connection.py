@@ -1,4 +1,5 @@
 from astrapy import DataAPIClient
+from src.utils.formatarTexto import formatarTexto_vermelho
 
 def get_astra_client():
     token = "AstraCS:oOlKCcZQyKHKMotcHthdJNdR:f1899e48a075523dad5f9139177794968b78a2c483d5ab2d231ab59f3221f8a0"
@@ -10,7 +11,7 @@ def get_database(client, endpoint, namespace):
         db = client.get_database_by_api_endpoint(endpoint, namespace=namespace)
         return db
     except Exception as e:
-        print(f"\nErro ao conectar ao banco de dados. {e}")
+        print(f"\nErro ao conectar ao banco de dados. {formatarTexto_vermelho(str(e))}")
         return None
     
 def get_collection(colecaoNome):
@@ -26,3 +27,4 @@ def get_collection(colecaoNome):
     else:
         return None
     
+# Path: src/database/connection.py

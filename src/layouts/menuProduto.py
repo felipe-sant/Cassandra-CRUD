@@ -3,13 +3,14 @@ from src.functions.cadastrarProduto import cadastrarProduto
 from src.functions.listarProduto import listarProduto
 from src.functions.atualizarProduto import atualizarProduto
 from src.functions.deletarProduto import deletarProduto
+from src.utils.formatarTexto import formatarTexto_negrito
 
 def menuProduto():
     while True:
         limparTerminal()
         
         print("-=" * 20 + "-")
-        print("Menu Produto")
+        print(formatarTexto_negrito("Menu Produto"))
         print("1 - Cadastrar Produto")
         print("2 - Listar Produtos")
         print("3 - Atualizar Produto")
@@ -33,3 +34,5 @@ def menuProduto():
             case _:
                 print("Opção inválida")
                 input()
+                
+# Path: src/layouts/menuProduto.py

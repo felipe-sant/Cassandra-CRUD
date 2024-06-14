@@ -1,11 +1,6 @@
-from src.utils.criarVendedor import criarVendedor
-from src.utils.criarProduto import criarProduto
-from src.utils.limparTerminal import limparTerminal
-from src.utils.criarCompra import criarCompra
+from src.layouts.menuPrincipal import menuPrincipal
 
-limparTerminal()
-compra = criarCompra(isRequired=True)
-if compra:
-    print(compra)
-else:
-    print("Compra não criada")
+if __name__ == "__main__":
+    menuPrincipal()
+
+# Path: index.py
