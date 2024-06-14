@@ -440,11 +440,35 @@
         "documentation": {}
     },
     {
+        "label": "solicitarInput",
+        "importPath": "src.utils.solicitarInput",
+        "description": "src.utils.solicitarInput",
+        "isExtraImport": true,
+        "detail": "src.utils.solicitarInput",
+        "documentation": {}
+    },
+    {
         "label": "Optional",
         "importPath": "typing",
         "description": "typing",
         "isExtraImport": true,
         "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Vendedor",
+        "importPath": "src.classes.vendedor",
+        "description": "src.classes.vendedor",
+        "isExtraImport": true,
+        "detail": "src.classes.vendedor",
         "documentation": {}
     },
     {
@@ -457,11 +481,11 @@
         "documentation": {}
     },
     {
-        "label": "criarUsuario",
-        "importPath": "src.utils.criarUsuario",
-        "description": "src.utils.criarUsuario",
+        "label": "criarVendedor",
+        "importPath": "src.utils.criarVendedor",
+        "description": "src.utils.criarVendedor",
         "isExtraImport": true,
-        "detail": "src.utils.criarUsuario",
+        "detail": "src.utils.criarVendedor",
         "documentation": {}
     },
     {
@@ -807,6 +831,15 @@
         "documentation": {}
     },
     {
+        "label": "criarVendedor",
+        "kind": 2,
+        "importPath": "src.utils.criarVendedor",
+        "description": "src.utils.criarVendedor",
+        "peekOfCode": "def criarVendedor(isRequired: bool) -> Optional[Vendedor]:\n    try:\n        nome = solicitarInput(\"Digite o nome do vendedor: \", isRequired)\n        rg = solicitarInput(\"Digite o RG do vendedor: \", isRequired)\n        vendedor = Vendedor(nome=nome, rg=rg)\n        vendedor.validate()\n        return vendedor\n    except Exception as e:\n        print(f\"\\nErro ao criar vendedor: {e}\")\n        input()",
+        "detail": "src.utils.criarVendedor",
+        "documentation": {}
+    },
+    {
         "label": "limparTerminal",
         "kind": 2,
         "importPath": "src.utils.limparTerminal",
@@ -822,6 +855,15 @@
         "description": "src.utils.solicitarInput",
         "peekOfCode": "def solicitarInput(prompt: str, isRequired: bool = False) -> str | None:\n    while True:\n        valor = input(prompt).strip()\n        if isRequired and not valor:\n            print(\"Valor não pode ser vazio\")\n            continue\n        else:\n            return valor\n# Path: src/utils/solicitarInput.py",
         "detail": "src.utils.solicitarInput",
+        "documentation": {}
+    },
+    {
+        "label": "vendedor",
+        "kind": 5,
+        "importPath": "index",
+        "description": "index",
+        "peekOfCode": "vendedor = criarVendedor(isRequired=True)\nif vendedor:\n    print(vendedor)\n    input()\nelse:\n    print(\"Operação cancelada\")\n    input()",
+        "detail": "index",
         "documentation": {}
     }
 ]

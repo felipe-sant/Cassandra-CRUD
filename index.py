@@ -1,10 +1,9 @@
-from src.utils.criarUsuario import criarUsuario
+from src.utils.criarVendedor import criarVendedor
 
-if __name__ == "__main__":
-    usuario = criarUsuario(False)
-    
-    if usuario:
-        print("Usuário criado com sucesso")
-        print(usuario.toDict())
-    else:
-        print("Falha ao criar usuário")
+vendedor = criarVendedor(isRequired=True)
+if vendedor:
+    print(vendedor)
+    input()
+else:
+    print("Operação cancelada")
+    input()
