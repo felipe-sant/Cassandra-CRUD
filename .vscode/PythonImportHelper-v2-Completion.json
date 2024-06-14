@@ -472,6 +472,30 @@
         "documentation": {}
     },
     {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Compra",
+        "importPath": "src.classes.compra",
+        "description": "src.classes.compra",
+        "isExtraImport": true,
+        "detail": "src.classes.compra",
+        "documentation": {}
+    },
+    {
+        "label": "solicitarInput",
+        "importPath": "src.utils.solicitarInput",
+        "description": "src.utils.solicitarInput",
+        "isExtraImport": true,
+        "detail": "src.utils.solicitarInput",
+        "documentation": {}
+    },
+    {
         "label": "solicitarInput",
         "importPath": "src.utils.solicitarInput",
         "description": "src.utils.solicitarInput",
@@ -526,6 +550,14 @@
         "description": "src.utils.criarProduto",
         "isExtraImport": true,
         "detail": "src.utils.criarProduto",
+        "documentation": {}
+    },
+    {
+        "label": "criarCompra",
+        "importPath": "src.utils.criarCompra",
+        "description": "src.utils.criarCompra",
+        "isExtraImport": true,
+        "detail": "src.utils.criarCompra",
         "documentation": {}
     },
     {
@@ -862,6 +894,15 @@
         "documentation": {}
     },
     {
+        "label": "criarCompra",
+        "kind": 2,
+        "importPath": "src.utils.criarCompra",
+        "description": "src.utils.criarCompra",
+        "peekOfCode": "def criarCompra(isRequired: bool) -> Optional[Compra]:\n    try:\n        diaCompra = solicitarInput(\"Digite o dia da compra: \", isRequired)\n        mesCompra = solicitarInput(\"Digite o mês da compra: \", isRequired)\n        anoCompra = solicitarInput(\"Digite o ano da compra: \", isRequired)\n        dataCompra = f\"{diaCompra}/{mesCompra}/{anoCompra}\"\n        compra = Compra(dataCompra=dataCompra)\n        compra.validate()\n        return compra\n    except Exception as e:",
+        "detail": "src.utils.criarCompra",
+        "documentation": {}
+    },
+    {
         "label": "criarProduto",
         "kind": 2,
         "importPath": "src.utils.criarProduto",
@@ -907,11 +948,11 @@
         "documentation": {}
     },
     {
-        "label": "produto",
+        "label": "compra",
         "kind": 5,
         "importPath": "index",
         "description": "index",
-        "peekOfCode": "produto = criarProduto(isRequired=True)\nif produto:\n    print(produto)\n    input()\nelse:\n    print(\"Operação cancelada\")\n    input()",
+        "peekOfCode": "compra = criarCompra(isRequired=True)\nif compra:\n    print(compra)\nelse:\n    print(\"Compra não criada\")",
         "detail": "index",
         "documentation": {}
     }
