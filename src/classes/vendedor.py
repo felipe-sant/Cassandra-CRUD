@@ -26,7 +26,7 @@ class Vendedor:
     
     def toDict(self) -> dict:
         result = asdict(self)
-        return {k: v for k, v in result.items() if v != None and v != ''}
+        return {k: v for k, v in result.items() if v != None and v != '' and v != []}
     
     @classmethod
     def fromDict(cls, vendedorJson: dict) :
@@ -49,17 +49,5 @@ class Vendedor:
         for produto in self.produtos:
             if not isinstance(produto, dict):
                 raise ValueError("produtos deve ser uma lista de dicionários")
-            if not produto.get("_id", None):
-                raise ValueError("produto deve ter um _id")
-            if not produto.get("nome", None):
-                raise ValueError("produto deve ter um nome")
-            if not produto.get("preco", None):
-                raise ValueError("produto deve ter um preço")
-            if not isinstance(produto["_id"], str):
-                raise ValueError("_id do produto deve ser uma string")
-            if not isinstance(produto["nome"], str):
-                raise ValueError("nome do produto deve ser uma string")
-            if not isinstance(produto["preco"], (int, float)):
-                raise ValueError("preco do produto deve ser um número")
             
 # Path: src/classes/vendedor.py

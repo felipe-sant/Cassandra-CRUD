@@ -48,6 +48,30 @@
         "documentation": {}
     },
     {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "field",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "asdict",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
         "label": "DataAPIClient",
         "importPath": "astrapy",
         "description": "astrapy",
@@ -374,6 +398,23 @@
         "description": "src.classes.vendedor",
         "isExtraImport": true,
         "detail": "src.classes.vendedor",
+        "documentation": {}
+    },
+    {
+        "label": "Produto",
+        "importPath": "src.classes.produto",
+        "description": "src.classes.produto",
+        "isExtraImport": true,
+        "detail": "src.classes.produto",
+        "documentation": {}
+    },
+    {
+        "label": "Produto",
+        "kind": 6,
+        "importPath": "src.classes.produto",
+        "description": "src.classes.produto",
+        "peekOfCode": "class Produto:\n    _id: str = field(default=None, repr=False)\n    nome: str = field(default=\"\")\n    descricao: str = field(default=\"\")\n    preco: float = field(default=0.0)\n    estoque: int = field(default=0)\n    vendedor: dict[str, any] = field(default_factory=dict)\n    def __str__(self) -> str:\n        listagem = \"\"\n        listagem += f\"_id: {self._id}\\n\" if self._id is not None else \"\"",
+        "detail": "src.classes.produto",
         "documentation": {}
     },
     {
@@ -723,16 +764,7 @@
         "kind": 5,
         "importPath": "index",
         "description": "index",
-        "peekOfCode": "usuario = {\n    \"_id\": \"1\",\n    \"nome\": \"João\",\n    \"endereco\": \"Rua 1\",\n    \"rg\": \"123456789\"\n}\nvendededor = {\n    \"_id\": \"1\",\n    \"nome\": \"Vendedor 1\",\n    \"rg\": \"123456789\",",
-        "detail": "index",
-        "documentation": {}
-    },
-    {
-        "label": "vendededor",
-        "kind": 5,
-        "importPath": "index",
-        "description": "index",
-        "peekOfCode": "vendededor = {\n    \"_id\": \"1\",\n    \"nome\": \"Vendedor 1\",\n    \"rg\": \"123456789\",\n    \"produtos\": [\n        {\n            \"_id\": \"1\",\n            \"nome\": \"Produto 1\",\n            \"preco\": 10.0\n        },",
+        "peekOfCode": "usuario = {\n    \"_id\": \"1\",\n    \"nome\": \"João\",\n    \"endereco\": \"Rua 1\",\n    \"rg\": \"123456789\"\n}\nvendedor = {\n    \"_id\": \"1\",\n    \"nome\": \"Vendedor 1\",\n    \"rg\": \"123456789\",",
         "detail": "index",
         "documentation": {}
     },
@@ -741,7 +773,16 @@
         "kind": 5,
         "importPath": "index",
         "description": "index",
-        "peekOfCode": "vendedor = Vendedor.fromDict(produto[\"vendedor\"])\nprint(vendedor)",
+        "peekOfCode": "vendedor = {\n    \"_id\": \"1\",\n    \"nome\": \"Vendedor 1\",\n    \"rg\": \"123456789\",\n    \"produtos\": [\n        {\n            \"_id\": \"1\",\n            \"nome\": \"Produto 1\",\n            \"preco\": 10.0\n        },",
+        "detail": "index",
+        "documentation": {}
+    },
+    {
+        "label": "vendedor",
+        "kind": 5,
+        "importPath": "index",
+        "description": "index",
+        "peekOfCode": "vendedor = Vendedor.fromDict(produto[\"vendedor\"])\nprint(vendedor.toDict())",
         "detail": "index",
         "documentation": {}
     }

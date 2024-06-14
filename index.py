@@ -1,5 +1,6 @@
 from src.classes.usuario import Usuario
 from src.classes.vendedor import Vendedor
+from src.classes.produto import Produto
 
 compra = {
     "_id": "1",
@@ -43,7 +44,7 @@ usuario = {
     "rg": "123456789"
 }
 
-vendededor = {
+vendedor = {
     "_id": "1",
     "nome": "Vendedor 1",
     "rg": "123456789",
@@ -68,4 +69,4 @@ vendededor = {
 
 vendedor = Vendedor.fromDict(produto["vendedor"])
 
-print(vendedor)
+print(vendedor.toDict())
