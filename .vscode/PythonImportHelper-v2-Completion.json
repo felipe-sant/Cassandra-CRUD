@@ -72,6 +72,30 @@
         "documentation": {}
     },
     {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "field",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "asdict",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
         "label": "DataAPIClient",
         "importPath": "astrapy",
         "description": "astrapy",
@@ -406,6 +430,23 @@
         "description": "src.classes.produto",
         "isExtraImport": true,
         "detail": "src.classes.produto",
+        "documentation": {}
+    },
+    {
+        "label": "Compra",
+        "importPath": "src.classes.compra",
+        "description": "src.classes.compra",
+        "isExtraImport": true,
+        "detail": "src.classes.compra",
+        "documentation": {}
+    },
+    {
+        "label": "Compra",
+        "kind": 6,
+        "importPath": "src.classes.compra",
+        "description": "src.classes.compra",
+        "peekOfCode": "class Compra:\n    _id: str = field(default=None, repr=False)\n    dataCompra: str = field(default=\"\")\n    valorTotal: float = field(default=0.0)\n    usuario: dict[str, any] = field(default_factory=dict)\n    produtos: list[dict[str, any]] = field(default_factory=list)\n    def __str__(self) -> str:\n        listagem = \"\"\n        listagem += f\"_id: {self._id}\\n\" if self._id is not None else \"\"\n        listagem += f\"dataCompra: {self.dataCompra}\\n\" if self.dataCompra != \"\" else \"\"",
+        "detail": "src.classes.compra",
         "documentation": {}
     },
     {
@@ -778,11 +819,20 @@
         "documentation": {}
     },
     {
-        "label": "vendedor",
+        "label": "compra",
         "kind": 5,
         "importPath": "index",
         "description": "index",
-        "peekOfCode": "vendedor = Vendedor.fromDict(produto[\"vendedor\"])\nprint(vendedor.toDict())",
+        "peekOfCode": "compra = Compra.fromDict(compra)\nusuario = Usuario.fromDict(compra.usuario)\nprint(usuario)",
+        "detail": "index",
+        "documentation": {}
+    },
+    {
+        "label": "usuario",
+        "kind": 5,
+        "importPath": "index",
+        "description": "index",
+        "peekOfCode": "usuario = Usuario.fromDict(compra.usuario)\nprint(usuario)",
         "detail": "index",
         "documentation": {}
     }
