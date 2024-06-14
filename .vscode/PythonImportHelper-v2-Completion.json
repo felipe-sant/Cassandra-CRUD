@@ -1,5 +1,29 @@
 [
     {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "field",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "asdict",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
         "label": "DataAPIClient",
         "importPath": "astrapy",
         "description": "astrapy",
@@ -69,14 +93,6 @@
         "description": "src.database.connection",
         "isExtraImport": true,
         "detail": "src.database.connection",
-        "documentation": {}
-    },
-    {
-        "label": "limparTerminal",
-        "importPath": "src.utils.limparTerminal",
-        "description": "src.utils.limparTerminal",
-        "isExtraImport": true,
-        "detail": "src.utils.limparTerminal",
         "documentation": {}
     },
     {
@@ -321,11 +337,20 @@
         "documentation": {}
     },
     {
-        "label": "find",
-        "importPath": "src.database.find",
-        "description": "src.database.find",
+        "label": "Usuario",
+        "importPath": "src.classes.usuario",
+        "description": "src.classes.usuario",
         "isExtraImport": true,
-        "detail": "src.database.find",
+        "detail": "src.classes.usuario",
+        "documentation": {}
+    },
+    {
+        "label": "Usuario",
+        "kind": 6,
+        "importPath": "src.classes.usuario",
+        "description": "src.classes.usuario",
+        "peekOfCode": "class Usuario:\n    _id: str = field(default=None, repr=False)\n    nome: str = field(default=\"\")\n    endereco: str = field(default=\"\")\n    rg: str = field(default=\"\")\n    def __str__(self) -> str:\n        listagem = \"\"\n        listagem += f\"_id: {self._id}\\n\" if self._id is not None else \"\"\n        listagem += f\"nome: {self.nome}\\n\" if self.nome != \"\" else \"\"\n        listagem += f\"endereco: {self.endereco}\\n\" if self.endereco != \"\" else \"\"",
+        "detail": "src.classes.usuario",
         "documentation": {}
     },
     {
@@ -635,11 +660,47 @@
         "documentation": {}
     },
     {
-        "label": "usuarios",
+        "label": "compra",
         "kind": 5,
         "importPath": "index",
         "description": "index",
-        "peekOfCode": "usuarios = find(\"usuario\")\n# if usuario:\n#     print(usuario)\n#     input()\nif usuarios:\n    for usuario in usuarios:\n        print(usuario)\n        input()\nelse:\n    print(\"Nenhum usuário encontrado.\")",
+        "peekOfCode": "compra = {\n    \"_id\": \"1\",\n    \"dataCompra\": '2021-09-01',\n    \"valorTotal\": 100.0,\n    \"usuario\": {\n        \"_id\": \"1\",\n        \"nome\": \"João\",\n        \"endereco\": \"Rua 1\",\n    },\n    \"produtos\": [",
+        "detail": "index",
+        "documentation": {}
+    },
+    {
+        "label": "produto",
+        "kind": 5,
+        "importPath": "index",
+        "description": "index",
+        "peekOfCode": "produto = {\n    \"_id\": \"1\",\n    \"nome\": \"Produto 1\",\n    \"descricao\": \"Descrição do produto 1\",\n    \"preco\": 10.0,\n    \"estoque\": 10,\n    \"vendedor\": {\n        \"_id\": \"1\",\n        \"nome\": \"Vendedor 1\",\n    }",
+        "detail": "index",
+        "documentation": {}
+    },
+    {
+        "label": "usuario",
+        "kind": 5,
+        "importPath": "index",
+        "description": "index",
+        "peekOfCode": "usuario = {\n    \"_id\": \"1\",\n    \"nome\": \"João\",\n    \"endereco\": \"Rua 1\",\n    \"rg\": \"123456789\"\n}\nvendededor = {\n    \"_id\": \"1\",\n    \"nome\": \"Vendedor 1\",\n    \"rg\": \"123456789\",",
+        "detail": "index",
+        "documentation": {}
+    },
+    {
+        "label": "vendededor",
+        "kind": 5,
+        "importPath": "index",
+        "description": "index",
+        "peekOfCode": "vendededor = {\n    \"_id\": \"1\",\n    \"nome\": \"Vendedor 1\",\n    \"rg\": \"123456789\",\n    \"produtos\": [\n        {\n            \"_id\": \"1\",\n            \"nome\": \"Produto 1\",\n            \"preco\": 10.0\n        },",
+        "detail": "index",
+        "documentation": {}
+    },
+    {
+        "label": "usuario",
+        "kind": 5,
+        "importPath": "index",
+        "description": "index",
+        "peekOfCode": "usuario = Usuario.fromDict(compra[\"usuario\"])\nprint()\nprint(usuario.toDict())",
         "detail": "index",
         "documentation": {}
     }
