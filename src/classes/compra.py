@@ -1,4 +1,6 @@
 from dataclasses import dataclass, field, asdict
+from src.classes.produto import Produto
+from src.classes.usuario import Usuario
 
 @dataclass
 class Compra:
@@ -28,6 +30,20 @@ class Compra:
                 if count != 0:
                     listagem += "\t-----------------\n"
         return listagem
+    
+    def setUsuario(self, usuario: Usuario) -> None:
+        newUsuario = Usuario(_id = usuario._id, nome = usuario.nome)
+        self.usuario = newUsuario.toDict()
+    
+    def addProduto(self, produto: Produto) -> None:
+        newProduto = Produto(_id = produto._id, nome = produto.nome, preco = produto.preco)
+        self.produtos.append(newProduto.toDict())
+    
+    def removeProduto(self, _id: str) -> None:
+        for produto in self.produtos:
+            if produto.get("_id", None) == _id:
+                self.produtos.remove(produto)
+                break
     
     def toDict(self) -> dict:
         result = asdict(self)

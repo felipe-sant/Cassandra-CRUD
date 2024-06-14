@@ -39,8 +39,8 @@ produto = {
 }
 
 usuario = {
-    "_id": "1",
-    "nome": "João",
+    "_id": "2",
+    "nome": "Pedro Augusto",
     "endereco": "Rua 1",
     "rg": "123456789"
 }
@@ -67,9 +67,3 @@ vendedor = {
         }
     ]
 }
-
-compra = Compra.fromDict(compra)
-
-usuario = Usuario.fromDict(compra.usuario)
-
-print(usuario)

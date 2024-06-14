@@ -96,6 +96,38 @@
         "documentation": {}
     },
     {
+        "label": "Produto",
+        "importPath": "src.classes.produto",
+        "description": "src.classes.produto",
+        "isExtraImport": true,
+        "detail": "src.classes.produto",
+        "documentation": {}
+    },
+    {
+        "label": "Produto",
+        "importPath": "src.classes.produto",
+        "description": "src.classes.produto",
+        "isExtraImport": true,
+        "detail": "src.classes.produto",
+        "documentation": {}
+    },
+    {
+        "label": "Usuario",
+        "importPath": "src.classes.usuario",
+        "description": "src.classes.usuario",
+        "isExtraImport": true,
+        "detail": "src.classes.usuario",
+        "documentation": {}
+    },
+    {
+        "label": "Usuario",
+        "importPath": "src.classes.usuario",
+        "description": "src.classes.usuario",
+        "isExtraImport": true,
+        "detail": "src.classes.usuario",
+        "documentation": {}
+    },
+    {
         "label": "DataAPIClient",
         "importPath": "astrapy",
         "description": "astrapy",
@@ -409,27 +441,11 @@
         "documentation": {}
     },
     {
-        "label": "Usuario",
-        "importPath": "src.classes.usuario",
-        "description": "src.classes.usuario",
-        "isExtraImport": true,
-        "detail": "src.classes.usuario",
-        "documentation": {}
-    },
-    {
         "label": "Vendedor",
         "importPath": "src.classes.vendedor",
         "description": "src.classes.vendedor",
         "isExtraImport": true,
         "detail": "src.classes.vendedor",
-        "documentation": {}
-    },
-    {
-        "label": "Produto",
-        "importPath": "src.classes.produto",
-        "description": "src.classes.produto",
-        "isExtraImport": true,
-        "detail": "src.classes.produto",
         "documentation": {}
     },
     {
@@ -805,7 +821,7 @@
         "kind": 5,
         "importPath": "index",
         "description": "index",
-        "peekOfCode": "usuario = {\n    \"_id\": \"1\",\n    \"nome\": \"João\",\n    \"endereco\": \"Rua 1\",\n    \"rg\": \"123456789\"\n}\nvendedor = {\n    \"_id\": \"1\",\n    \"nome\": \"Vendedor 1\",\n    \"rg\": \"123456789\",",
+        "peekOfCode": "usuario = {\n    \"_id\": \"2\",\n    \"nome\": \"Pedro Augusto\",\n    \"endereco\": \"Rua 1\",\n    \"rg\": \"123456789\"\n}\nvendedor = {\n    \"_id\": \"1\",\n    \"nome\": \"Vendedor 1\",\n    \"rg\": \"123456789\",",
         "detail": "index",
         "documentation": {}
     },
@@ -815,24 +831,6 @@
         "importPath": "index",
         "description": "index",
         "peekOfCode": "vendedor = {\n    \"_id\": \"1\",\n    \"nome\": \"Vendedor 1\",\n    \"rg\": \"123456789\",\n    \"produtos\": [\n        {\n            \"_id\": \"1\",\n            \"nome\": \"Produto 1\",\n            \"preco\": 10.0\n        },",
-        "detail": "index",
-        "documentation": {}
-    },
-    {
-        "label": "compra",
-        "kind": 5,
-        "importPath": "index",
-        "description": "index",
-        "peekOfCode": "compra = Compra.fromDict(compra)\nusuario = Usuario.fromDict(compra.usuario)\nprint(usuario)",
-        "detail": "index",
-        "documentation": {}
-    },
-    {
-        "label": "usuario",
-        "kind": 5,
-        "importPath": "index",
-        "description": "index",
-        "peekOfCode": "usuario = Usuario.fromDict(compra.usuario)\nprint(usuario)",
         "detail": "index",
         "documentation": {}
     }
