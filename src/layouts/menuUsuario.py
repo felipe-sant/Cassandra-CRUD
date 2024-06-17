@@ -16,7 +16,7 @@ def menuUsuario():
         print("2 - Listar Usuários")
         print("3 - Atualizar Usuário")
         print("4 - Deletar Usuário")
-        print("5 - Adicionar favorito")
+        # print("5 - Adicionar favorito")
         print("0 - Voltar")
         print("-=" * 20 + "-")
         
@@ -32,7 +32,8 @@ def menuUsuario():
             case "4":
                 deletarUsuario()
             case "5":
-                menuAdicionarProduto(None, False)
+                print("to do")
+                input()
             case "0":
                 return
             case _:

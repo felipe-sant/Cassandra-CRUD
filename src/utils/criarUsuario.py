@@ -5,9 +5,9 @@ from src.utils.formatarTexto import formatarTexto_negrito, formatarTexto_vermelh
 
 def criarUsuario(isRequired: bool) -> Optional[Usuario]:
     try:
-        nome = solicitarInput(f"Digite o {formatarTexto_negrito("nome")} do usuário: ", isRequired)
-        endereco = solicitarInput(f"Digite o {formatarTexto_negrito("endereço")} do usuário: ", isRequired)
-        rg = solicitarInput(f"Digite o {formatarTexto_negrito("rg")} do usuário: ", isRequired)
+        nome = str(solicitarInput(f"Digite o {formatarTexto_negrito("nome")} do usuário: ", isRequired)).lower()
+        endereco = str(solicitarInput(f"Digite o {formatarTexto_negrito("endereço")} do usuário: ", isRequired)).lower()
+        rg = str(solicitarInput(f"Digite o {formatarTexto_negrito("rg")} do usuário: ", isRequired)).lower()
         usuario = Usuario(nome=nome, endereco=endereco, rg=rg)
         usuario.validate()
         return usuario
