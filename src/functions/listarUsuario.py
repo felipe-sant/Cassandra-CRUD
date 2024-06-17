@@ -8,6 +8,8 @@ from src.database.find_one import find_one
 def listarUsuario():
     try:
         total = count_documents("usuario")
+        if total == None:
+            raise Exception("Erro ao conectar com o banco de dados.")
         if total == 0:
             raise Exception("Nenhum usuário cadastrado.")
         nome = input(f"Digite o {formatarTexto_negrito("nome")} do usuário: (deixe em branco para listar todos) ")

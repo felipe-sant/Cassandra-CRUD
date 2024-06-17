@@ -44,9 +44,9 @@ class Produto:
             raise ValueError("nome deve ser uma string")
         if not isinstance(self.descricao, str):
             raise ValueError("descricao deve ser uma string")
-        if not isinstance(self.preco, float):
+        if not isinstance(self.preco, float) and self.preco != "" and self.preco != None:
             raise ValueError("preco deve ser um float")
-        if not isinstance(self.estoque, int):
+        if not isinstance(self.estoque, int) and self.estoque != "" and self.estoque != None:
             raise ValueError("estoque deve ser um int")
         if not isinstance(self.vendedor, dict):
             raise ValueError("vendedor deve ser um dicionário")

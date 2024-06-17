@@ -128,6 +128,14 @@
         "documentation": {}
     },
     {
+        "label": "Produto",
+        "importPath": "src.classes.produto",
+        "description": "src.classes.produto",
+        "isExtraImport": true,
+        "detail": "src.classes.produto",
+        "documentation": {}
+    },
+    {
         "label": "Usuario",
         "importPath": "src.classes.usuario",
         "description": "src.classes.usuario",
@@ -272,6 +280,14 @@
         "documentation": {}
     },
     {
+        "label": "formatarTexto_negrito",
+        "importPath": "src.utils.formatarTexto",
+        "description": "src.utils.formatarTexto",
+        "isExtraImport": true,
+        "detail": "src.utils.formatarTexto",
+        "documentation": {}
+    },
+    {
         "label": "formatarTexto_vermelho",
         "importPath": "src.utils.formatarTexto",
         "description": "src.utils.formatarTexto",
@@ -281,6 +297,86 @@
     },
     {
         "label": "formatarTexto_azul",
+        "importPath": "src.utils.formatarTexto",
+        "description": "src.utils.formatarTexto",
+        "isExtraImport": true,
+        "detail": "src.utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_vermelho",
+        "importPath": "src.utils.formatarTexto",
+        "description": "src.utils.formatarTexto",
+        "isExtraImport": true,
+        "detail": "src.utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_azul",
+        "importPath": "src.utils.formatarTexto",
+        "description": "src.utils.formatarTexto",
+        "isExtraImport": true,
+        "detail": "src.utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_vermelho",
+        "importPath": "src.utils.formatarTexto",
+        "description": "src.utils.formatarTexto",
+        "isExtraImport": true,
+        "detail": "src.utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_azul",
+        "importPath": "src.utils.formatarTexto",
+        "description": "src.utils.formatarTexto",
+        "isExtraImport": true,
+        "detail": "src.utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_negrito",
+        "importPath": "src.utils.formatarTexto",
+        "description": "src.utils.formatarTexto",
+        "isExtraImport": true,
+        "detail": "src.utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_vermelho",
+        "importPath": "src.utils.formatarTexto",
+        "description": "src.utils.formatarTexto",
+        "isExtraImport": true,
+        "detail": "src.utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_azul",
+        "importPath": "src.utils.formatarTexto",
+        "description": "src.utils.formatarTexto",
+        "isExtraImport": true,
+        "detail": "src.utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_negrito",
+        "importPath": "src.utils.formatarTexto",
+        "description": "src.utils.formatarTexto",
+        "isExtraImport": true,
+        "detail": "src.utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_vermelho",
+        "importPath": "src.utils.formatarTexto",
+        "description": "src.utils.formatarTexto",
+        "isExtraImport": true,
+        "detail": "src.utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_italico",
         "importPath": "src.utils.formatarTexto",
         "description": "src.utils.formatarTexto",
         "isExtraImport": true,
@@ -568,19 +664,35 @@
         "documentation": {}
     },
     {
-        "label": "criarUsuario",
-        "importPath": "src.utils.criarUsuario",
-        "description": "src.utils.criarUsuario",
+        "label": "solicitarInput",
+        "importPath": "src.utils.solicitarInput",
+        "description": "src.utils.solicitarInput",
         "isExtraImport": true,
-        "detail": "src.utils.criarUsuario",
+        "detail": "src.utils.solicitarInput",
         "documentation": {}
     },
     {
-        "label": "criarUsuario",
-        "importPath": "src.utils.criarUsuario",
-        "description": "src.utils.criarUsuario",
+        "label": "solicitarInput",
+        "importPath": "src.utils.solicitarInput",
+        "description": "src.utils.solicitarInput",
         "isExtraImport": true,
-        "detail": "src.utils.criarUsuario",
+        "detail": "src.utils.solicitarInput",
+        "documentation": {}
+    },
+    {
+        "label": "criarProduto",
+        "importPath": "src.utils.criarProduto",
+        "description": "src.utils.criarProduto",
+        "isExtraImport": true,
+        "detail": "src.utils.criarProduto",
+        "documentation": {}
+    },
+    {
+        "label": "criarProduto",
+        "importPath": "src.utils.criarProduto",
+        "description": "src.utils.criarProduto",
+        "isExtraImport": true,
+        "detail": "src.utils.criarProduto",
         "documentation": {}
     },
     {
@@ -592,6 +704,30 @@
         "documentation": {}
     },
     {
+        "label": "update_one",
+        "importPath": "src.database.update_one",
+        "description": "src.database.update_one",
+        "isExtraImport": true,
+        "detail": "src.database.update_one",
+        "documentation": {}
+    },
+    {
+        "label": "criarUsuario",
+        "importPath": "src.utils.criarUsuario",
+        "description": "src.utils.criarUsuario",
+        "isExtraImport": true,
+        "detail": "src.utils.criarUsuario",
+        "documentation": {}
+    },
+    {
+        "label": "criarUsuario",
+        "importPath": "src.utils.criarUsuario",
+        "description": "src.utils.criarUsuario",
+        "isExtraImport": true,
+        "detail": "src.utils.criarUsuario",
+        "documentation": {}
+    },
+    {
         "label": "insert_one",
         "importPath": "src.database.insert_one",
         "description": "src.database.insert_one",
@@ -600,11 +736,11 @@
         "documentation": {}
     },
     {
-        "label": "delete_one",
-        "importPath": "src.database.delete_one",
-        "description": "src.database.delete_one",
+        "label": "insert_one",
+        "importPath": "src.database.insert_one",
+        "description": "src.database.insert_one",
         "isExtraImport": true,
-        "detail": "src.database.delete_one",
+        "detail": "src.database.insert_one",
         "documentation": {}
     },
     {
@@ -616,11 +752,27 @@
         "documentation": {}
     },
     {
-        "label": "find",
-        "importPath": "src.database.find",
-        "description": "src.database.find",
+        "label": "delete_all",
+        "importPath": "src.database.delete_all",
+        "description": "src.database.delete_all",
         "isExtraImport": true,
-        "detail": "src.database.find",
+        "detail": "src.database.delete_all",
+        "documentation": {}
+    },
+    {
+        "label": "delete_one",
+        "importPath": "src.database.delete_one",
+        "description": "src.database.delete_one",
+        "isExtraImport": true,
+        "detail": "src.database.delete_one",
+        "documentation": {}
+    },
+    {
+        "label": "delete_one",
+        "importPath": "src.database.delete_one",
+        "description": "src.database.delete_one",
+        "isExtraImport": true,
+        "detail": "src.database.delete_one",
         "documentation": {}
     },
     {
@@ -629,6 +781,38 @@
         "description": "src.database.count_documents",
         "isExtraImport": true,
         "detail": "src.database.count_documents",
+        "documentation": {}
+    },
+    {
+        "label": "count_documents",
+        "importPath": "src.database.count_documents",
+        "description": "src.database.count_documents",
+        "isExtraImport": true,
+        "detail": "src.database.count_documents",
+        "documentation": {}
+    },
+    {
+        "label": "find",
+        "importPath": "src.database.find",
+        "description": "src.database.find",
+        "isExtraImport": true,
+        "detail": "src.database.find",
+        "documentation": {}
+    },
+    {
+        "label": "find",
+        "importPath": "src.database.find",
+        "description": "src.database.find",
+        "isExtraImport": true,
+        "detail": "src.database.find",
+        "documentation": {}
+    },
+    {
+        "label": "find_one",
+        "importPath": "src.database.find_one",
+        "description": "src.database.find_one",
+        "isExtraImport": true,
+        "detail": "src.database.find_one",
         "documentation": {}
     },
     {
@@ -1004,7 +1188,7 @@
         "kind": 2,
         "importPath": "src.database.count_documents",
         "description": "src.database.count_documents",
-        "peekOfCode": "def count_documents(colecaoNome: str, filtro: dict = None) -> int | None:\n    try:\n        colecao = get_collection(colecaoNome)\n        count = colecao.count_documents(filtro, upper_bound=100)\n        return count\n    except Exception as e:\n        print(f\"\\nErro ao contar documentos. {formatarTexto_vermelho(str(e))}\")\n        input()\n        return \n# Path: src/database/count_documents.py",
+        "peekOfCode": "def count_documents(colecaoNome: str, filtro: dict = None) -> int | None:\n    try:\n        colecao = get_collection(colecaoNome)\n        count = colecao.count_documents(filtro, upper_bound=100)\n        return count\n    except Exception as e:\n        print(f\"\\nErro ao contar documentos. {formatarTexto_vermelho(str(e))}\")\n        input()\n        return None\n# Path: src/database/count_documents.py",
         "detail": "src.database.count_documents",
         "documentation": {}
     },
@@ -1094,7 +1278,7 @@
         "kind": 2,
         "importPath": "src.functions.atualizarProduto",
         "description": "src.functions.atualizarProduto",
-        "peekOfCode": "def atualizarProduto():\n    pass",
+        "peekOfCode": "def atualizarProduto():\n    try:\n        id = solicitarInput(f\"Digite o {formatarTexto_negrito(\"id\")} do produto que deseja atualizar\", isRequired=True)\n        filtro = {\"_id\": id}\n        produtoUpdate = criarProduto(isRequired=False)\n        result = update_one(\"produto\", produtoUpdate.toDict(), filtro)\n        if result:\n            print(f\"\\n{formatarTexto_azul(result)}\")\n            input()\n        else:",
         "detail": "src.functions.atualizarProduto",
         "documentation": {}
     },
@@ -1130,7 +1314,7 @@
         "kind": 2,
         "importPath": "src.functions.cadastrarProduto",
         "description": "src.functions.cadastrarProduto",
-        "peekOfCode": "def cadastrarProduto():\n    pass",
+        "peekOfCode": "def cadastrarProduto():\n    try:\n        produto = criarProduto(isRequired=True)\n        if produto:\n            result = insert_one(\"produto\", produto.toDict())\n            if result:\n                print(f\"\\n{formatarTexto_azul(result)}\")\n                input()\n    except Exception as e:\n        print(f\"\\nErro ao cadastrar produto: {formatarTexto_vermelho(str(e))}\")        ",
         "detail": "src.functions.cadastrarProduto",
         "documentation": {}
     },
@@ -1162,11 +1346,20 @@
         "documentation": {}
     },
     {
+        "label": "deletarTodosProdutos",
+        "kind": 2,
+        "importPath": "src.functions.deletarProduto",
+        "description": "src.functions.deletarProduto",
+        "peekOfCode": "def deletarTodosProdutos():\n    result = delete_all(\"produto\")\n    return result\ndef deletarProduto():\n    try:\n        id = solicitarInput(f\"Digite o {formatarTexto_negrito(\"id\")} do usuário que deseja deletar: \", isRequired=True)\n        if id == \"delete_all\":\n            result = deletarTodosProdutos()\n        else:\n            filtro = {\"_id\": id}",
+        "detail": "src.functions.deletarProduto",
+        "documentation": {}
+    },
+    {
         "label": "deletarProduto",
         "kind": 2,
         "importPath": "src.functions.deletarProduto",
         "description": "src.functions.deletarProduto",
-        "peekOfCode": "def deletarProduto():\n    pass",
+        "peekOfCode": "def deletarProduto():\n    try:\n        id = solicitarInput(f\"Digite o {formatarTexto_negrito(\"id\")} do usuário que deseja deletar: \", isRequired=True)\n        if id == \"delete_all\":\n            result = deletarTodosProdutos()\n        else:\n            filtro = {\"_id\": id}\n            result = delete_one(\"produto\", filtro)\n        if result:\n            print(f\"\\n{formatarTexto_azul(result)}\")",
         "detail": "src.functions.deletarProduto",
         "documentation": {}
     },
@@ -1211,7 +1404,7 @@
         "kind": 2,
         "importPath": "src.functions.listarProduto",
         "description": "src.functions.listarProduto",
-        "peekOfCode": "def listarProduto():\n    pass",
+        "peekOfCode": "def listarProduto():\n    try:\n        total = count_documents(\"produto\")\n        if total == None:\n            raise Exception(\"Erro ao conectar com o banco de dados.\")\n        if total == 0:\n            raise Exception(\"Nenhum produto cadastrado.\")\n        nome = input(f\"Digite o {formatarTexto_negrito(\"nome\")} do produto: (deixe em branco para listar todos) \")\n        if nome == \"\":\n            produtos = find(\"produto\")",
         "detail": "src.functions.listarProduto",
         "documentation": {}
     },
@@ -1220,7 +1413,7 @@
         "kind": 2,
         "importPath": "src.functions.listarUsuario",
         "description": "src.functions.listarUsuario",
-        "peekOfCode": "def listarUsuario():\n    try:\n        total = count_documents(\"usuario\")\n        if total == 0:\n            raise Exception(\"Nenhum usuário cadastrado.\")\n        nome = input(f\"Digite o {formatarTexto_negrito(\"nome\")} do usuário: (deixe em branco para listar todos) \")\n        if nome == \"\":\n            usuarios = find(\"usuario\")\n            if usuarios == None:\n                raise Exception(\"Erro ao buscar usuários.\")",
+        "peekOfCode": "def listarUsuario():\n    try:\n        total = count_documents(\"usuario\")\n        if total == None:\n            raise Exception(\"Erro ao conectar com o banco de dados.\")\n        if total == 0:\n            raise Exception(\"Nenhum usuário cadastrado.\")\n        nome = input(f\"Digite o {formatarTexto_negrito(\"nome\")} do usuário: (deixe em branco para listar todos) \")\n        if nome == \"\":\n            usuarios = find(\"usuario\")",
         "detail": "src.functions.listarUsuario",
         "documentation": {}
     },
@@ -1256,7 +1449,7 @@
         "kind": 2,
         "importPath": "src.layouts.menuPrincipal",
         "description": "src.layouts.menuPrincipal",
-        "peekOfCode": "def menuPrincipal():\n    while True:\n        limparTerminal()\n        print(\"==\" * 21)\n        print(formatarTexto_negrito(\"Menu Principal\"))\n        # print(\"1 - CRUD de Compras\")\n        # print(\"2 - CRUD de Produtos\")\n        print(\"3 - CRUD de Usuários\")\n        # print(\"4 - CRUD de Vendedores\")\n        print(\"0 - Sair\")",
+        "peekOfCode": "def menuPrincipal():\n    while True:\n        limparTerminal()\n        print(\"==\" * 21)\n        print(formatarTexto_negrito(\"Menu Principal\"))\n        # print(\"1 - CRUD de Compras\")\n        print(\"2 - CRUD de Produtos\")\n        print(\"3 - CRUD de Usuários\")\n        # print(\"4 - CRUD de Vendedores\")\n        print(\"0 - Sair\")",
         "detail": "src.layouts.menuPrincipal",
         "documentation": {}
     },

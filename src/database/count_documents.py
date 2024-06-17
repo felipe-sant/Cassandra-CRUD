@@ -9,6 +9,6 @@ def count_documents(colecaoNome: str, filtro: dict = None) -> int | None:
     except Exception as e:
         print(f"\nErro ao contar documentos. {formatarTexto_vermelho(str(e))}")
         input()
-        return 
+        return None
     
 # Path: src/database/count_documents.py

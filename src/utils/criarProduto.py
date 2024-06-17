@@ -7,8 +7,10 @@ def criarProduto(isRequired: bool) -> Optional[Produto]:
     try:
         nome = solicitarInput(f"Digite o {formatarTexto_negrito("nome")} do produto: ", isRequired)
         descricao = solicitarInput(f"Digite a {formatarTexto_negrito("descrição")} do produto: ", isRequired)
-        preco = float(solicitarInput(f"Digite o {formatarTexto_negrito("preço")} do produto: ", isRequired))
-        estoque = int(solicitarInput(f"Digite o {formatarTexto_negrito("estoque")} do produto: ", isRequired))
+        preco = solicitarInput(f"Digite o {formatarTexto_negrito("preço")} do produto: ", isRequired)
+        if preco: preco = float(preco)
+        estoque = solicitarInput(f"Digite o {formatarTexto_negrito("estoque")} do produto: ", isRequired)
+        if estoque: estoque = int(estoque)
         produto = Produto(nome=nome, descricao=descricao, preco=preco, estoque=estoque)
         produto.validate()
         return produto
