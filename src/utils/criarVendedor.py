@@ -13,7 +13,7 @@ def criarVendedor(isRequired: bool, vendedor: Vendedor = None) -> Optional[Vende
             rgText = f"Digite o novo {formatarTexto_negrito('rg')} do vendedor {formatarTexto_italico(f"(atual: {vendedor.rg})")}: "
         nome = solicitarInput(nomeText, isRequired)
         rg = solicitarInput(rgText, isRequired)
-        vendedor = Vendedor(nome=nome, rg=rg)
+        vendedor = Vendedor(nome=nome, rg=rg, produtos=[])
         vendedor.validate()
         return vendedor
     except Exception as e:

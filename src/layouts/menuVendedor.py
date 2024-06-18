@@ -15,7 +15,6 @@ def menuVendedor():
         print("2 - Listar Vendedores")
         print("3 - Atualizar Vendedor")
         print("4 - Deletar Vendedor")
-        print("5 - Adicionar produto")
         print("0 - Voltar")
         print("-=" * 20 + "-")
         
@@ -30,8 +29,6 @@ def menuVendedor():
                 atualizarVendedor()
             case "4":
                 deletarVendedor()
-            case "5":
-                pass
             case "0":
                 return
             case _:

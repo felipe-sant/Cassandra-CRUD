@@ -26,12 +26,16 @@ class Vendedor:
         return listagem
     
     def addProduto(self, produto: Produto) -> None:
-        newProduto = Produto(_id = produto._id, nome = produto.nome, preco = produto.preco)
-        self.produtos.append(newProduto.toDict())
+        newProduto = {
+            "id": produto._id,
+            "nome": produto.nome,
+            "preco": produto.preco
+        }
+        self.produtos.append(newProduto)
         
     def removeProduto(self, _id: str) -> None:
         for produto in self.produtos:
-            if produto.get("_id", None) == _id:
+            if produto.get("id", None) == _id:
                 self.produtos.remove(produto)
                 break
     

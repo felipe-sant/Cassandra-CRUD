@@ -28,12 +28,16 @@ class Usuario:
         return listagem
     
     def addProduto(self, produto: Produto) -> None:
-        newProduto = Produto(_id = produto._id, nome = produto.nome, preco = produto.preco)
-        self.favoritos.append(newProduto.toDict())
+        newProduto = {
+            "id": produto._id,
+            "nome": produto.nome,
+            "preco": produto.preco
+        }
+        self.favoritos.append(newProduto)
     
     def removeProduto(self, _id: str) -> None:
         for produto in self.favoritos:
-            if produto.get("_id", None) == _id:
+            if produto.get("id", None) == _id:
                 self.favoritos.remove(produto)
                 break
     

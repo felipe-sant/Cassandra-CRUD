@@ -5,20 +5,12 @@ from src.database.find import find
 from src.classes.produto import Produto
 from src.database.find_one import find_one
 
-def listarProduto():
+def listarProduto(produtos: list = None):
     try:
-        total = count_documents("produto")
-        if total == None:
-            raise Exception("Erro ao conectar com o banco de dados.")
-        if total == 0:
-            raise Exception("Nenhum produto cadastrado.")
-        
-        nome = input(f"Digite o {formatarTexto_negrito("nome")} do produto: (deixe em branco para listar todos) ")
-        if nome == "":
-            produtos = find("produto")
-            if produtos == None:
-                raise Exception("Erro ao buscar produtos.")
-            
+        if produtos != None:
+            total = len(produtos)
+            if total == 0:
+                raise Exception("Nenhum produto cadastrado.")
             count = 1
             print()
             for produtoJson in produtos:
@@ -27,15 +19,37 @@ def listarProduto():
                 print(produto)
                 input()
                 count += 1
+            return
         else:
-            filtro = {"nome": nome}
-            produtoJson = find_one("produto", filtro)
-            if produtoJson == None:
-                raise Exception("Produto não encontrado.")
-            produto = Produto.fromDict(produtoJson)
-            print()
-            print(produto)
-            input()
+            total = count_documents("produto")
+            if total == None:
+                raise Exception("Erro ao conectar com o banco de dados.")
+            if total == 0:
+                raise Exception("Nenhum produto cadastrado.")
+            
+            nome = input(f"Digite o {formatarTexto_negrito("nome")} do produto: (deixe em branco para listar todos) ")
+            if nome == "":
+                produtos = find("produto")
+                if produtos == None:
+                    raise Exception("Erro ao buscar produtos.")
+                
+                count = 1
+                print()
+                for produtoJson in produtos:
+                    print(formatarTexto_italico(f"{count}/{total} - Produto:"))
+                    produto = Produto.fromDict(produtoJson)
+                    print(produto)
+                    input()
+                    count += 1
+            else:
+                filtro = {"nome": nome}
+                produtoJson = find_one("produto", filtro)
+                if produtoJson == None:
+                    raise Exception("Produto não encontrado.")
+                produto = Produto.fromDict(produtoJson)
+                print()
+                print(produto)
+                input()
     except Exception as e:
         print(f"\nErro ao listar produtos: {formatarTexto_vermelho(str(e))}")
         input()
