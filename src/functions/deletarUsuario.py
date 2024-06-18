@@ -3,6 +3,7 @@ from src.utils.formatarTexto import (formatarTexto_azul, formatarTexto_negrito,
     formatarTexto_vermelho)
 from src.database.delete_one import delete_one
 from src.database.delete_all import delete_all
+from src.database.find_one import find_one
 
 def deletarTodosUsuarios():
     result = delete_all("usuario")
@@ -15,6 +16,9 @@ def deletarUsuario():
             result = deletarTodosUsuarios()
         else:
             filtro = {"_id": id}
+            usuario = find_one("usuario", filtro)
+            if usuario == None:
+                raise Exception("Usuário não encontrado.")
             result = delete_one("usuario", filtro)
         if result:
             print(f"\n{formatarTexto_azul(result)}")

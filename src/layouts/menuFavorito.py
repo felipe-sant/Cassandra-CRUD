@@ -3,7 +3,7 @@ from src.functions.listarProduto import listarProduto
 from src.utils.formatarTexto import formatarTexto_negrito
 from src.functions.listarUsuario import listarUsuario
 from src.functions.cadastrarFavorito import cadastrarFavorito
-from src.functions.removerFavorito import removerFavorito
+from src.functions.deletarFavorito import deletarFavorito
 
 def menuFavorito():
     while True:
@@ -28,7 +28,7 @@ def menuFavorito():
             case "3":
                 listarProduto()
             case "4":
-                removerFavorito()
+                deletarFavorito()
             case "0":
                 return
             case _:

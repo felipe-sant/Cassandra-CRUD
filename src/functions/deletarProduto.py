@@ -3,6 +3,7 @@ from src.utils.formatarTexto import (formatarTexto_azul, formatarTexto_negrito,
     formatarTexto_vermelho)
 from src.database.delete_all import delete_all
 from src.database.delete_one import delete_one
+from src.database.find_one import find_one
 
 def deletarTodosProdutos():
     result = delete_all("produto")
@@ -15,6 +16,9 @@ def deletarProduto():
             result = deletarTodosProdutos()
         else:
             filtro = {"_id": id}
+            produto = find_one("produto", filtro)
+            if produto == None:
+                raise Exception("Produto não encontrado.")
             result = delete_one("produto", filtro)
         if result:
             print(f"\n{formatarTexto_azul(result)}")

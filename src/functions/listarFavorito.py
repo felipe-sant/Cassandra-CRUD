@@ -11,7 +11,7 @@ def listarFavorito(usuario: Usuario):
         favoritos = find("favorito", filtro)
         
         if favoritos == None:
-            raise f"Erro ao buscar favoritos"
+            raise Exception(f"Erro ao buscar favoritos")
         
         for favorito in favoritos:
             filtro = { "_id": favorito["id_produto"] }

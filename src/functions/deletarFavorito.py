@@ -6,18 +6,18 @@ from src.classes.produto import Produto
 from src.database.find_one import find_one
 from src.database.delete_one import delete_one
 
-def removerFavorito():
+def deletarFavorito():
     try:
         id_usuario = solicitarInput(f"Digite o {formatarTexto_negrito("ID")} do {formatarTexto_negrito("Usuário")}: ", isRequired=True)
         usuarioJson = find_one("usuario", {"_id": id_usuario})
         if usuarioJson == None:
-            raise "Usuário não encontrado."
+            raise Exception("Usuário não encontrado.")
         usuario = Usuario.fromDict(usuarioJson)
         
         id_produto = solicitarInput(f"Digite o {formatarTexto_negrito("ID")} do {formatarTexto_negrito("Produto")}: ", isRequired=True)
         produtoJson = find_one("produto", {"_id": id_produto})
         if produtoJson == None:
-            raise "Produto não encontrado."
+            raise Exception("Produto não encontrado.")
         produto = Produto.fromDict(produtoJson)
         
         filtro = {
@@ -28,7 +28,7 @@ def removerFavorito():
         favorito = find_one("favorito", filtro)
         
         if favorito == None:
-            raise "Esse produto não esta como favorito desse usuário"
+            raise Exception("Esse produto não esta como favorito desse usuário")
         
         result = delete_one("favorito", filtro)
         

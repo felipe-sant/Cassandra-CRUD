@@ -11,13 +11,13 @@ def cadastrarFavorito():
         id_usuario = solicitarInput(f"Digite o {formatarTexto_negrito("ID")} do {formatarTexto_negrito("Usuário")}: ", isRequired=True)
         usuarioJson = find_one("usuario", {"_id": id_usuario})
         if usuarioJson == None:
-            raise "Usuário não encontrado."
+            raise Exception("Usuário não encontrado.")
         usuario = Usuario.fromDict(usuarioJson)
         
         id_produto = solicitarInput(f"Digite o {formatarTexto_negrito("ID")} do {formatarTexto_negrito("Produto")}: ", isRequired=True)
         produtoJson = find_one("produto", {"_id": id_produto})
         if produtoJson == None:
-            raise "Produto não encontrado."
+            raise Exception("Produto não encontrado.")
         produto = Produto.fromDict(produtoJson)
         
         favorito = {
