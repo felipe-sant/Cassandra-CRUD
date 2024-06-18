@@ -3,7 +3,6 @@ from src.functions.cadastrarVendedor import cadastrarVendedor
 from src.functions.listarVendedor import listarVendedor
 from src.functions.atualizarVendedor import atualizarVendedor
 from src.functions.deletarVendedor import deletarVendedor
-from src.layouts.menuAdicionarProduto import menuAdicionarProduto
 from src.utils.formatarTexto import formatarTexto_negrito
 
 def menuVendedor():
@@ -32,7 +31,7 @@ def menuVendedor():
             case "4":
                 deletarVendedor()
             case "5":
-                menuAdicionarProduto(None, True)
+                pass
             case "0":
                 return
             case _:

@@ -4,6 +4,7 @@ from src.utils.formatarTexto import (formatarTexto_italico, formatarTexto_negrit
     formatarTexto_vermelho)
 from src.database.count_documents import count_documents
 from src.database.find_one import find_one
+from src.functions.listarFavorito import listarFavorito
 
 def listarUsuario():
     try:
@@ -23,6 +24,7 @@ def listarUsuario():
                 print(formatarTexto_italico(f"{count}/{total} - Usuário:"))
                 usuario = Usuario.fromDict(usuarioJson)
                 print(usuario)
+                listarFavorito(usuario)
                 input()
                 count += 1
         else:

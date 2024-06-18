@@ -136,6 +136,54 @@
         "documentation": {}
     },
     {
+        "label": "Produto",
+        "importPath": "src.classes.produto",
+        "description": "src.classes.produto",
+        "isExtraImport": true,
+        "detail": "src.classes.produto",
+        "documentation": {}
+    },
+    {
+        "label": "Produto",
+        "importPath": "src.classes.produto",
+        "description": "src.classes.produto",
+        "isExtraImport": true,
+        "detail": "src.classes.produto",
+        "documentation": {}
+    },
+    {
+        "label": "Produto",
+        "importPath": "src.classes.produto",
+        "description": "src.classes.produto",
+        "isExtraImport": true,
+        "detail": "src.classes.produto",
+        "documentation": {}
+    },
+    {
+        "label": "Usuario",
+        "importPath": "src.classes.usuario",
+        "description": "src.classes.usuario",
+        "isExtraImport": true,
+        "detail": "src.classes.usuario",
+        "documentation": {}
+    },
+    {
+        "label": "Usuario",
+        "importPath": "src.classes.usuario",
+        "description": "src.classes.usuario",
+        "isExtraImport": true,
+        "detail": "src.classes.usuario",
+        "documentation": {}
+    },
+    {
+        "label": "Usuario",
+        "importPath": "src.classes.usuario",
+        "description": "src.classes.usuario",
+        "isExtraImport": true,
+        "detail": "src.classes.usuario",
+        "documentation": {}
+    },
+    {
         "label": "Usuario",
         "importPath": "src.classes.usuario",
         "description": "src.classes.usuario",
@@ -304,6 +352,30 @@
         "documentation": {}
     },
     {
+        "label": "formatarTexto_negrito",
+        "importPath": "src.utils.formatarTexto",
+        "description": "src.utils.formatarTexto",
+        "isExtraImport": true,
+        "detail": "src.utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_vermelho",
+        "importPath": "src.utils.formatarTexto",
+        "description": "src.utils.formatarTexto",
+        "isExtraImport": true,
+        "detail": "src.utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_azul",
+        "importPath": "src.utils.formatarTexto",
+        "description": "src.utils.formatarTexto",
+        "isExtraImport": true,
+        "detail": "src.utils.formatarTexto",
+        "documentation": {}
+    },
+    {
         "label": "formatarTexto_vermelho",
         "importPath": "src.utils.formatarTexto",
         "description": "src.utils.formatarTexto",
@@ -361,6 +433,14 @@
     },
     {
         "label": "formatarTexto_negrito",
+        "importPath": "src.utils.formatarTexto",
+        "description": "src.utils.formatarTexto",
+        "isExtraImport": true,
+        "detail": "src.utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_vermelho",
         "importPath": "src.utils.formatarTexto",
         "description": "src.utils.formatarTexto",
         "isExtraImport": true,
@@ -401,6 +481,30 @@
     },
     {
         "label": "formatarTexto_italico",
+        "importPath": "src.utils.formatarTexto",
+        "description": "src.utils.formatarTexto",
+        "isExtraImport": true,
+        "detail": "src.utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_negrito",
+        "importPath": "src.utils.formatarTexto",
+        "description": "src.utils.formatarTexto",
+        "isExtraImport": true,
+        "detail": "src.utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_vermelho",
+        "importPath": "src.utils.formatarTexto",
+        "description": "src.utils.formatarTexto",
+        "isExtraImport": true,
+        "detail": "src.utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_azul",
         "importPath": "src.utils.formatarTexto",
         "description": "src.utils.formatarTexto",
         "isExtraImport": true,
@@ -680,6 +784,22 @@
         "documentation": {}
     },
     {
+        "label": "solicitarInput",
+        "importPath": "src.utils.solicitarInput",
+        "description": "src.utils.solicitarInput",
+        "isExtraImport": true,
+        "detail": "src.utils.solicitarInput",
+        "documentation": {}
+    },
+    {
+        "label": "solicitarInput",
+        "importPath": "src.utils.solicitarInput",
+        "description": "src.utils.solicitarInput",
+        "isExtraImport": true,
+        "detail": "src.utils.solicitarInput",
+        "documentation": {}
+    },
+    {
         "label": "criarProduto",
         "importPath": "src.utils.criarProduto",
         "description": "src.utils.criarProduto",
@@ -712,6 +832,54 @@
         "documentation": {}
     },
     {
+        "label": "find_one",
+        "importPath": "src.database.find_one",
+        "description": "src.database.find_one",
+        "isExtraImport": true,
+        "detail": "src.database.find_one",
+        "documentation": {}
+    },
+    {
+        "label": "find_one",
+        "importPath": "src.database.find_one",
+        "description": "src.database.find_one",
+        "isExtraImport": true,
+        "detail": "src.database.find_one",
+        "documentation": {}
+    },
+    {
+        "label": "find_one",
+        "importPath": "src.database.find_one",
+        "description": "src.database.find_one",
+        "isExtraImport": true,
+        "detail": "src.database.find_one",
+        "documentation": {}
+    },
+    {
+        "label": "find_one",
+        "importPath": "src.database.find_one",
+        "description": "src.database.find_one",
+        "isExtraImport": true,
+        "detail": "src.database.find_one",
+        "documentation": {}
+    },
+    {
+        "label": "find_one",
+        "importPath": "src.database.find_one",
+        "description": "src.database.find_one",
+        "isExtraImport": true,
+        "detail": "src.database.find_one",
+        "documentation": {}
+    },
+    {
+        "label": "find_one",
+        "importPath": "src.database.find_one",
+        "description": "src.database.find_one",
+        "isExtraImport": true,
+        "detail": "src.database.find_one",
+        "documentation": {}
+    },
+    {
         "label": "criarUsuario",
         "importPath": "src.utils.criarUsuario",
         "description": "src.utils.criarUsuario",
@@ -725,6 +893,14 @@
         "description": "src.utils.criarUsuario",
         "isExtraImport": true,
         "detail": "src.utils.criarUsuario",
+        "documentation": {}
+    },
+    {
+        "label": "insert_one",
+        "importPath": "src.database.insert_one",
+        "description": "src.database.insert_one",
+        "isExtraImport": true,
+        "detail": "src.database.insert_one",
         "documentation": {}
     },
     {
@@ -776,19 +952,11 @@
         "documentation": {}
     },
     {
-        "label": "count_documents",
-        "importPath": "src.database.count_documents",
-        "description": "src.database.count_documents",
+        "label": "delete_one",
+        "importPath": "src.database.delete_one",
+        "description": "src.database.delete_one",
         "isExtraImport": true,
-        "detail": "src.database.count_documents",
-        "documentation": {}
-    },
-    {
-        "label": "count_documents",
-        "importPath": "src.database.count_documents",
-        "description": "src.database.count_documents",
-        "isExtraImport": true,
-        "detail": "src.database.count_documents",
+        "detail": "src.database.delete_one",
         "documentation": {}
     },
     {
@@ -808,43 +976,35 @@
         "documentation": {}
     },
     {
-        "label": "find_one",
-        "importPath": "src.database.find_one",
-        "description": "src.database.find_one",
+        "label": "find",
+        "importPath": "src.database.find",
+        "description": "src.database.find",
         "isExtraImport": true,
-        "detail": "src.database.find_one",
+        "detail": "src.database.find",
         "documentation": {}
     },
     {
-        "label": "find_one",
-        "importPath": "src.database.find_one",
-        "description": "src.database.find_one",
+        "label": "count_documents",
+        "importPath": "src.database.count_documents",
+        "description": "src.database.count_documents",
         "isExtraImport": true,
-        "detail": "src.database.find_one",
+        "detail": "src.database.count_documents",
         "documentation": {}
     },
     {
-        "label": "limparTerminal",
-        "importPath": "src.utils.limparTerminal",
-        "description": "src.utils.limparTerminal",
+        "label": "count_documents",
+        "importPath": "src.database.count_documents",
+        "description": "src.database.count_documents",
         "isExtraImport": true,
-        "detail": "src.utils.limparTerminal",
+        "detail": "src.database.count_documents",
         "documentation": {}
     },
     {
-        "label": "limparTerminal",
-        "importPath": "src.utils.limparTerminal",
-        "description": "src.utils.limparTerminal",
+        "label": "listarFavorito",
+        "importPath": "src.functions.listarFavorito",
+        "description": "src.functions.listarFavorito",
         "isExtraImport": true,
-        "detail": "src.utils.limparTerminal",
-        "documentation": {}
-    },
-    {
-        "label": "limparTerminal",
-        "importPath": "src.utils.limparTerminal",
-        "description": "src.utils.limparTerminal",
-        "isExtraImport": true,
-        "detail": "src.utils.limparTerminal",
+        "detail": "src.functions.listarFavorito",
         "documentation": {}
     },
     {
@@ -872,19 +1032,27 @@
         "documentation": {}
     },
     {
-        "label": "listarProduto",
-        "importPath": "src.functions.listarProduto",
-        "description": "src.functions.listarProduto",
+        "label": "limparTerminal",
+        "importPath": "src.utils.limparTerminal",
+        "description": "src.utils.limparTerminal",
         "isExtraImport": true,
-        "detail": "src.functions.listarProduto",
+        "detail": "src.utils.limparTerminal",
         "documentation": {}
     },
     {
-        "label": "listarProduto",
-        "importPath": "src.functions.listarProduto",
-        "description": "src.functions.listarProduto",
+        "label": "limparTerminal",
+        "importPath": "src.utils.limparTerminal",
+        "description": "src.utils.limparTerminal",
         "isExtraImport": true,
-        "detail": "src.functions.listarProduto",
+        "detail": "src.utils.limparTerminal",
+        "documentation": {}
+    },
+    {
+        "label": "limparTerminal",
+        "importPath": "src.utils.limparTerminal",
+        "description": "src.utils.limparTerminal",
+        "isExtraImport": true,
+        "detail": "src.utils.limparTerminal",
         "documentation": {}
     },
     {
@@ -917,6 +1085,54 @@
         "description": "src.functions.deletarCompra",
         "isExtraImport": true,
         "detail": "src.functions.deletarCompra",
+        "documentation": {}
+    },
+    {
+        "label": "listarProduto",
+        "importPath": "src.functions.listarProduto",
+        "description": "src.functions.listarProduto",
+        "isExtraImport": true,
+        "detail": "src.functions.listarProduto",
+        "documentation": {}
+    },
+    {
+        "label": "listarProduto",
+        "importPath": "src.functions.listarProduto",
+        "description": "src.functions.listarProduto",
+        "isExtraImport": true,
+        "detail": "src.functions.listarProduto",
+        "documentation": {}
+    },
+    {
+        "label": "listarUsuario",
+        "importPath": "src.functions.listarUsuario",
+        "description": "src.functions.listarUsuario",
+        "isExtraImport": true,
+        "detail": "src.functions.listarUsuario",
+        "documentation": {}
+    },
+    {
+        "label": "listarUsuario",
+        "importPath": "src.functions.listarUsuario",
+        "description": "src.functions.listarUsuario",
+        "isExtraImport": true,
+        "detail": "src.functions.listarUsuario",
+        "documentation": {}
+    },
+    {
+        "label": "cadastrarFavorito",
+        "importPath": "src.functions.cadastrarFavorito",
+        "description": "src.functions.cadastrarFavorito",
+        "isExtraImport": true,
+        "detail": "src.functions.cadastrarFavorito",
+        "documentation": {}
+    },
+    {
+        "label": "removerFavorito",
+        "importPath": "src.functions.removerFavorito",
+        "description": "src.functions.removerFavorito",
+        "isExtraImport": true,
+        "detail": "src.functions.removerFavorito",
         "documentation": {}
     },
     {
@@ -984,14 +1200,6 @@
         "documentation": {}
     },
     {
-        "label": "listarUsuario",
-        "importPath": "src.functions.listarUsuario",
-        "description": "src.functions.listarUsuario",
-        "isExtraImport": true,
-        "detail": "src.functions.listarUsuario",
-        "documentation": {}
-    },
-    {
         "label": "atualizarUsuario",
         "importPath": "src.functions.atualizarUsuario",
         "description": "src.functions.atualizarUsuario",
@@ -1008,19 +1216,11 @@
         "documentation": {}
     },
     {
-        "label": "menuAdicionarProduto",
-        "importPath": "src.layouts.menuAdicionarProduto",
-        "description": "src.layouts.menuAdicionarProduto",
+        "label": "menuFavorito",
+        "importPath": "src.layouts.menuFavorito",
+        "description": "src.layouts.menuFavorito",
         "isExtraImport": true,
-        "detail": "src.layouts.menuAdicionarProduto",
-        "documentation": {}
-    },
-    {
-        "label": "menuAdicionarProduto",
-        "importPath": "src.layouts.menuAdicionarProduto",
-        "description": "src.layouts.menuAdicionarProduto",
-        "isExtraImport": true,
-        "detail": "src.layouts.menuAdicionarProduto",
+        "detail": "src.layouts.menuFavorito",
         "documentation": {}
     },
     {
@@ -1278,7 +1478,7 @@
         "kind": 2,
         "importPath": "src.functions.atualizarProduto",
         "description": "src.functions.atualizarProduto",
-        "peekOfCode": "def atualizarProduto():\n    try:\n        id = solicitarInput(f\"Digite o {formatarTexto_negrito(\"id\")} do produto que deseja atualizar\", isRequired=True)\n        filtro = {\"_id\": id}\n        produtoUpdate = criarProduto(isRequired=False)\n        result = update_one(\"produto\", produtoUpdate.toDict(), filtro)\n        if result:\n            print(f\"\\n{formatarTexto_azul(result)}\")\n            input()\n        else:",
+        "peekOfCode": "def atualizarProduto():\n    try:\n        id = solicitarInput(f\"Digite o {formatarTexto_negrito(\"id\")} do produto que deseja atualizar: \", isRequired=True)\n        filtro = {\"_id\": id}\n        produto = find_one(\"produto\", filtro)\n        if not produto:\n            raise Exception(\"Produto não encontrado.\")\n        produtoUpdate = criarProduto(isRequired=False)\n        result = update_one(\"produto\", produtoUpdate.toDict(), filtro)\n        if result:",
         "detail": "src.functions.atualizarProduto",
         "documentation": {}
     },
@@ -1307,6 +1507,15 @@
         "description": "src.functions.cadastrarCompra",
         "peekOfCode": "def cadastrarCompra():\n    pass",
         "detail": "src.functions.cadastrarCompra",
+        "documentation": {}
+    },
+    {
+        "label": "cadastrarFavorito",
+        "kind": 2,
+        "importPath": "src.functions.cadastrarFavorito",
+        "description": "src.functions.cadastrarFavorito",
+        "peekOfCode": "def cadastrarFavorito():\n    try:\n        id_usuario = solicitarInput(f\"Digite o {formatarTexto_negrito(\"ID\")} do {formatarTexto_negrito(\"Usuário\")}: \", isRequired=True)\n        usuarioJson = find_one(\"usuario\", {\"_id\": id_usuario})\n        if usuarioJson == None:\n            raise \"Usuário não encontrado.\"\n        usuario = Usuario.fromDict(usuarioJson)\n        id_produto = solicitarInput(f\"Digite o {formatarTexto_negrito(\"ID\")} do {formatarTexto_negrito(\"Produto\")}: \", isRequired=True)\n        produtoJson = find_one(\"produto\", {\"_id\": id_produto})\n        if produtoJson == None:",
+        "detail": "src.functions.cadastrarFavorito",
         "documentation": {}
     },
     {
@@ -1400,6 +1609,15 @@
         "documentation": {}
     },
     {
+        "label": "listarFavorito",
+        "kind": 2,
+        "importPath": "src.functions.listarFavorito",
+        "description": "src.functions.listarFavorito",
+        "peekOfCode": "def listarFavorito(usuario: Usuario):\n    try:\n        filtro = { \"id_usuario\": usuario._id }\n        favoritos = find(\"favorito\", filtro)\n        if favoritos == None:\n            raise f\"Erro ao buscar favoritos\"\n        for favorito in favoritos:\n            filtro = { \"_id\": favorito[\"id_produto\"] }\n            produtoJson = find_one(\"produto\", filtro)\n            if produtoJson != None:",
+        "detail": "src.functions.listarFavorito",
+        "documentation": {}
+    },
+    {
         "label": "listarProduto",
         "kind": 2,
         "importPath": "src.functions.listarProduto",
@@ -1427,12 +1645,12 @@
         "documentation": {}
     },
     {
-        "label": "menuAdicionarProduto",
+        "label": "removerFavorito",
         "kind": 2,
-        "importPath": "src.layouts.menuAdicionarProduto",
-        "description": "src.layouts.menuAdicionarProduto",
-        "peekOfCode": "def menuAdicionarProduto(colecao = None, isVendedor = False):\n    if colecao is None:\n        limparTerminal()\n        id = input(\"Digite o ID da coleção: \")\n    while True:\n        limparTerminal()\n        print(\"--\" * 21)\n        print(formatarTexto_negrito(\"Menu Adicionar Produto\"))\n        print(\"1 - Adicionar Produto\")\n        print(\"2 - Listar Produtos da coleção\")",
-        "detail": "src.layouts.menuAdicionarProduto",
+        "importPath": "src.functions.removerFavorito",
+        "description": "src.functions.removerFavorito",
+        "peekOfCode": "def removerFavorito():\n    try:\n        id_usuario = solicitarInput(f\"Digite o {formatarTexto_negrito(\"ID\")} do {formatarTexto_negrito(\"Usuário\")}: \", isRequired=True)\n        usuarioJson = find_one(\"usuario\", {\"_id\": id_usuario})\n        if usuarioJson == None:\n            raise \"Usuário não encontrado.\"\n        usuario = Usuario.fromDict(usuarioJson)\n        id_produto = solicitarInput(f\"Digite o {formatarTexto_negrito(\"ID\")} do {formatarTexto_negrito(\"Produto\")}: \", isRequired=True)\n        produtoJson = find_one(\"produto\", {\"_id\": id_produto})\n        if produtoJson == None:",
+        "detail": "src.functions.removerFavorito",
         "documentation": {}
     },
     {
@@ -1442,6 +1660,15 @@
         "description": "src.layouts.menuCompra",
         "peekOfCode": "def menuCompra():\n    while True:\n        limparTerminal()\n        print(\"-=\" * 20 + \"-\")\n        print(formatarTexto_negrito(\"Menu Compra\"))\n        print(\"1 - Cadastrar Compra\")\n        print(\"2 - Listar Compras\")\n        print(\"3 - Atualizar Compra\")\n        print(\"4 - Deletar Compra\")\n        print(\"0 - Voltar\")",
         "detail": "src.layouts.menuCompra",
+        "documentation": {}
+    },
+    {
+        "label": "menuFavorito",
+        "kind": 2,
+        "importPath": "src.layouts.menuFavorito",
+        "description": "src.layouts.menuFavorito",
+        "peekOfCode": "def menuFavorito():\n    while True:\n        limparTerminal()\n        print(\"--\" * 21)\n        print(formatarTexto_negrito(\"Menu Adicionar Produto\"))\n        print(\"1 - Adicionar Favorito\")\n        print(\"2 - Listar Usuários\")\n        print(\"3 - Listar Produtos\")\n        print(\"4 - Remover Favorito\")\n        print(\"0 - Concluir\")",
+        "detail": "src.layouts.menuFavorito",
         "documentation": {}
     },
     {
@@ -1467,7 +1694,7 @@
         "kind": 2,
         "importPath": "src.layouts.menuUsuario",
         "description": "src.layouts.menuUsuario",
-        "peekOfCode": "def menuUsuario():\n    while True:\n        limparTerminal()\n        print(\"-=\" * 20 + \"-\")\n        print(formatarTexto_negrito(\"Menu Usuário\"))\n        print(\"1 - Cadastrar Usuário\")\n        print(\"2 - Listar Usuários\")\n        print(\"3 - Atualizar Usuário\")\n        print(\"4 - Deletar Usuário\")\n        # print(\"5 - Adicionar favorito\")",
+        "peekOfCode": "def menuUsuario():\n    while True:\n        limparTerminal()\n        print(\"-=\" * 20 + \"-\")\n        print(formatarTexto_negrito(\"Menu Usuário\"))\n        print(\"1 - Cadastrar Usuário\")\n        print(\"2 - Listar Usuários\")\n        print(\"3 - Atualizar Usuário\")\n        print(\"4 - Deletar Usuário\")\n        print(\"5 - Adicionar Favoritos\")",
         "detail": "src.layouts.menuUsuario",
         "documentation": {}
     },
@@ -1494,7 +1721,7 @@
         "kind": 2,
         "importPath": "src.utils.criarProduto",
         "description": "src.utils.criarProduto",
-        "peekOfCode": "def criarProduto(isRequired: bool) -> Optional[Produto]:\n    try:\n        nome = solicitarInput(f\"Digite o {formatarTexto_negrito(\"nome\")} do produto: \", isRequired)\n        descricao = solicitarInput(f\"Digite a {formatarTexto_negrito(\"descrição\")} do produto: \", isRequired)\n        preco = float(solicitarInput(f\"Digite o {formatarTexto_negrito(\"preço\")} do produto: \", isRequired))\n        estoque = int(solicitarInput(f\"Digite o {formatarTexto_negrito(\"estoque\")} do produto: \", isRequired))\n        produto = Produto(nome=nome, descricao=descricao, preco=preco, estoque=estoque)\n        produto.validate()\n        return produto\n    except Exception as e:",
+        "peekOfCode": "def criarProduto(isRequired: bool) -> Optional[Produto]:\n    try:\n        nome = solicitarInput(f\"Digite o {formatarTexto_negrito(\"nome\")} do produto: \", isRequired)\n        descricao = solicitarInput(f\"Digite a {formatarTexto_negrito(\"descrição\")} do produto: \", isRequired)\n        preco = solicitarInput(f\"Digite o {formatarTexto_negrito(\"preço\")} do produto: \", isRequired)\n        if preco: preco = float(preco)\n        estoque = solicitarInput(f\"Digite o {formatarTexto_negrito(\"estoque\")} do produto: \", isRequired)\n        if estoque: estoque = int(estoque)\n        produto = Produto(nome=nome, descricao=descricao, preco=preco, estoque=estoque)\n        produto.validate()",
         "detail": "src.utils.criarProduto",
         "documentation": {}
     },

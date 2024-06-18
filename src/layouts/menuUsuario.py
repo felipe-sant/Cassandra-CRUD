@@ -3,8 +3,8 @@ from src.functions.cadastrarUsuario import cadastrarUsuario
 from src.functions.listarUsuario import listarUsuario
 from src.functions.atualizarUsuario import atualizarUsuario
 from src.functions.deletarUsuario import deletarUsuario
-from src.layouts.menuAdicionarProduto import menuAdicionarProduto
 from src.utils.formatarTexto import formatarTexto_negrito
+from src.layouts.menuFavorito import menuFavorito
 
 def menuUsuario():
     while True:
@@ -16,7 +16,7 @@ def menuUsuario():
         print("2 - Listar Usuários")
         print("3 - Atualizar Usuário")
         print("4 - Deletar Usuário")
-        # print("5 - Adicionar favorito")
+        print("5 - Adicionar Favoritos")
         print("0 - Voltar")
         print("-=" * 20 + "-")
         
@@ -32,8 +32,7 @@ def menuUsuario():
             case "4":
                 deletarUsuario()
             case "5":
-                print("to do")
-                input()
+                menuFavorito()
             case "0":
                 return
             case _:
