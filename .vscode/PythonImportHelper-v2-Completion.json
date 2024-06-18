@@ -376,6 +376,46 @@
         "documentation": {}
     },
     {
+        "label": "formatarTexto_negrito",
+        "importPath": "src.utils.formatarTexto",
+        "description": "src.utils.formatarTexto",
+        "isExtraImport": true,
+        "detail": "src.utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_vermelho",
+        "importPath": "src.utils.formatarTexto",
+        "description": "src.utils.formatarTexto",
+        "isExtraImport": true,
+        "detail": "src.utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_azul",
+        "importPath": "src.utils.formatarTexto",
+        "description": "src.utils.formatarTexto",
+        "isExtraImport": true,
+        "detail": "src.utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_vermelho",
+        "importPath": "src.utils.formatarTexto",
+        "description": "src.utils.formatarTexto",
+        "isExtraImport": true,
+        "detail": "src.utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_azul",
+        "importPath": "src.utils.formatarTexto",
+        "description": "src.utils.formatarTexto",
+        "isExtraImport": true,
+        "detail": "src.utils.formatarTexto",
+        "documentation": {}
+    },
+    {
         "label": "formatarTexto_vermelho",
         "importPath": "src.utils.formatarTexto",
         "description": "src.utils.formatarTexto",
@@ -465,6 +505,54 @@
     },
     {
         "label": "formatarTexto_vermelho",
+        "importPath": "src.utils.formatarTexto",
+        "description": "src.utils.formatarTexto",
+        "isExtraImport": true,
+        "detail": "src.utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_azul",
+        "importPath": "src.utils.formatarTexto",
+        "description": "src.utils.formatarTexto",
+        "isExtraImport": true,
+        "detail": "src.utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_negrito",
+        "importPath": "src.utils.formatarTexto",
+        "description": "src.utils.formatarTexto",
+        "isExtraImport": true,
+        "detail": "src.utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_vermelho",
+        "importPath": "src.utils.formatarTexto",
+        "description": "src.utils.formatarTexto",
+        "isExtraImport": true,
+        "detail": "src.utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_vermelho",
+        "importPath": "src.utils.formatarTexto",
+        "description": "src.utils.formatarTexto",
+        "isExtraImport": true,
+        "detail": "src.utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_italico",
+        "importPath": "src.utils.formatarTexto",
+        "description": "src.utils.formatarTexto",
+        "isExtraImport": true,
+        "detail": "src.utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_negrito",
         "importPath": "src.utils.formatarTexto",
         "description": "src.utils.formatarTexto",
         "isExtraImport": true,
@@ -800,6 +888,22 @@
         "documentation": {}
     },
     {
+        "label": "solicitarInput",
+        "importPath": "src.utils.solicitarInput",
+        "description": "src.utils.solicitarInput",
+        "isExtraImport": true,
+        "detail": "src.utils.solicitarInput",
+        "documentation": {}
+    },
+    {
+        "label": "solicitarInput",
+        "importPath": "src.utils.solicitarInput",
+        "description": "src.utils.solicitarInput",
+        "isExtraImport": true,
+        "detail": "src.utils.solicitarInput",
+        "documentation": {}
+    },
+    {
         "label": "criarProduto",
         "importPath": "src.utils.criarProduto",
         "description": "src.utils.criarProduto",
@@ -829,6 +933,38 @@
         "description": "src.database.update_one",
         "isExtraImport": true,
         "detail": "src.database.update_one",
+        "documentation": {}
+    },
+    {
+        "label": "update_one",
+        "importPath": "src.database.update_one",
+        "description": "src.database.update_one",
+        "isExtraImport": true,
+        "detail": "src.database.update_one",
+        "documentation": {}
+    },
+    {
+        "label": "find_one",
+        "importPath": "src.database.find_one",
+        "description": "src.database.find_one",
+        "isExtraImport": true,
+        "detail": "src.database.find_one",
+        "documentation": {}
+    },
+    {
+        "label": "find_one",
+        "importPath": "src.database.find_one",
+        "description": "src.database.find_one",
+        "isExtraImport": true,
+        "detail": "src.database.find_one",
+        "documentation": {}
+    },
+    {
+        "label": "find_one",
+        "importPath": "src.database.find_one",
+        "description": "src.database.find_one",
+        "isExtraImport": true,
+        "detail": "src.database.find_one",
         "documentation": {}
     },
     {
@@ -912,6 +1048,30 @@
         "documentation": {}
     },
     {
+        "label": "criarVendedor",
+        "importPath": "src.utils.criarVendedor",
+        "description": "src.utils.criarVendedor",
+        "isExtraImport": true,
+        "detail": "src.utils.criarVendedor",
+        "documentation": {}
+    },
+    {
+        "label": "criarVendedor",
+        "importPath": "src.utils.criarVendedor",
+        "description": "src.utils.criarVendedor",
+        "isExtraImport": true,
+        "detail": "src.utils.criarVendedor",
+        "documentation": {}
+    },
+    {
+        "label": "insert_one",
+        "importPath": "src.database.insert_one",
+        "description": "src.database.insert_one",
+        "isExtraImport": true,
+        "detail": "src.database.insert_one",
+        "documentation": {}
+    },
+    {
         "label": "insert_one",
         "importPath": "src.database.insert_one",
         "description": "src.database.insert_one",
@@ -933,6 +1093,14 @@
         "description": "src.database.insert_one",
         "isExtraImport": true,
         "detail": "src.database.insert_one",
+        "documentation": {}
+    },
+    {
+        "label": "delete_one",
+        "importPath": "src.database.delete_one",
+        "description": "src.database.delete_one",
+        "isExtraImport": true,
+        "detail": "src.database.delete_one",
         "documentation": {}
     },
     {
@@ -976,6 +1144,22 @@
         "documentation": {}
     },
     {
+        "label": "delete_all",
+        "importPath": "src.database.delete_all",
+        "description": "src.database.delete_all",
+        "isExtraImport": true,
+        "detail": "src.database.delete_all",
+        "documentation": {}
+    },
+    {
+        "label": "find",
+        "importPath": "src.database.find",
+        "description": "src.database.find",
+        "isExtraImport": true,
+        "detail": "src.database.find",
+        "documentation": {}
+    },
+    {
         "label": "find",
         "importPath": "src.database.find",
         "description": "src.database.find",
@@ -997,6 +1181,14 @@
         "description": "src.database.find",
         "isExtraImport": true,
         "detail": "src.database.find",
+        "documentation": {}
+    },
+    {
+        "label": "count_documents",
+        "importPath": "src.database.count_documents",
+        "description": "src.database.count_documents",
+        "isExtraImport": true,
+        "detail": "src.database.count_documents",
         "documentation": {}
     },
     {
@@ -1021,6 +1213,22 @@
         "description": "src.functions.listarFavorito",
         "isExtraImport": true,
         "detail": "src.functions.listarFavorito",
+        "documentation": {}
+    },
+    {
+        "label": "Vendedor",
+        "importPath": "src.classes.vendedor",
+        "description": "src.classes.vendedor",
+        "isExtraImport": true,
+        "detail": "src.classes.vendedor",
+        "documentation": {}
+    },
+    {
+        "label": "Vendedor",
+        "importPath": "src.classes.vendedor",
+        "description": "src.classes.vendedor",
+        "isExtraImport": true,
+        "detail": "src.classes.vendedor",
         "documentation": {}
     },
     {
@@ -1312,14 +1520,6 @@
         "documentation": {}
     },
     {
-        "label": "Vendedor",
-        "importPath": "src.classes.vendedor",
-        "description": "src.classes.vendedor",
-        "isExtraImport": true,
-        "detail": "src.classes.vendedor",
-        "documentation": {}
-    },
-    {
         "label": "os",
         "kind": 6,
         "isExtraImport": true,
@@ -1512,7 +1712,7 @@
         "kind": 2,
         "importPath": "src.functions.atualizarVendedor",
         "description": "src.functions.atualizarVendedor",
-        "peekOfCode": "def atualizarVendedor():\n    pass",
+        "peekOfCode": "def atualizarVendedor():\n    try:\n        id = solicitarInput(f\"Digite o {formatarTexto_negrito(\"id\")} do vendedor que deseja atualizar: \", isRequired=True)\n        filtro = {\"_id\": id}\n        vendedor = find_one(\"vendedor\", filtro)\n        if vendedor == None:\n            raise Exception(\"Vendedor não encontrado.\")\n        vendedorUpdate = criarVendedor(isRequired=False)\n        result = update_one(\"vendedor\", vendedorUpdate.toDict(), filtro)\n        if result:",
         "detail": "src.functions.atualizarVendedor",
         "documentation": {}
     },
@@ -1557,7 +1757,7 @@
         "kind": 2,
         "importPath": "src.functions.cadastrarVendedor",
         "description": "src.functions.cadastrarVendedor",
-        "peekOfCode": "def cadastrarVendedor():\n    pass",
+        "peekOfCode": "def cadastrarVendedor():\n    try:\n        vendedor = criarVendedor(isRequired=True)\n        if vendedor:\n            result = insert_one(\"vendedor\", vendedor.toDict())\n            if result:\n                print(f\"\\n{formatarTexto_azul(result)}\")\n                input()\n        else:\n            raise Exception(\"Vendedor inválido\")",
         "detail": "src.functions.cadastrarVendedor",
         "documentation": {}
     },
@@ -1616,11 +1816,20 @@
         "documentation": {}
     },
     {
+        "label": "deletarTodosVendedores",
+        "kind": 2,
+        "importPath": "src.functions.deletarVendedor",
+        "description": "src.functions.deletarVendedor",
+        "peekOfCode": "def deletarTodosVendedores():\n    result = delete_all(\"vendedor\")\n    return result\ndef deletarVendedor():\n    try:\n        id = solicitarInput(f\"Digite o {formatarTexto_negrito('id')} do vendedor que deseja deletar: \", isRequired=True)\n        if id == \"delete_all\":\n            result = deletarTodosVendedores()\n        else:\n            filtro = {\"_id\": id}",
+        "detail": "src.functions.deletarVendedor",
+        "documentation": {}
+    },
+    {
         "label": "deletarVendedor",
         "kind": 2,
         "importPath": "src.functions.deletarVendedor",
         "description": "src.functions.deletarVendedor",
-        "peekOfCode": "def deletarVendedor():\n    pass",
+        "peekOfCode": "def deletarVendedor():\n    try:\n        id = solicitarInput(f\"Digite o {formatarTexto_negrito('id')} do vendedor que deseja deletar: \", isRequired=True)\n        if id == \"delete_all\":\n            result = deletarTodosVendedores()\n        else:\n            filtro = {\"_id\": id}\n            vendedor = find_one(\"vendedor\", filtro)\n            if vendedor == None:\n                raise Exception(\"Vendedor não encontrado.\")",
         "detail": "src.functions.deletarVendedor",
         "documentation": {}
     },
@@ -1665,7 +1874,7 @@
         "kind": 2,
         "importPath": "src.functions.listarVendedor",
         "description": "src.functions.listarVendedor",
-        "peekOfCode": "def listarVendedor():\n    pass",
+        "peekOfCode": "def listarVendedor():\n    try:\n        total = count_documents(\"vendedor\")\n        if total == None:\n            raise Exception(\"Erro ao conectar com o banco de dados.\")\n        if total == 0:\n            raise Exception(\"Nenhum vendedor cadastrado.\")\n        nome = input(f\"Digite o {formatarTexto_negrito(\"nome\")} do vendedor: (deixe em branco para listar todos) \")\n        if nome == \"\":\n            vendedores = find(\"vendedor\")",
         "detail": "src.functions.listarVendedor",
         "documentation": {}
     },
@@ -1692,7 +1901,7 @@
         "kind": 2,
         "importPath": "src.layouts.menuPrincipal",
         "description": "src.layouts.menuPrincipal",
-        "peekOfCode": "def menuPrincipal():\n    while True:\n        limparTerminal()\n        print(\"==\" * 21)\n        print(formatarTexto_negrito(\"Menu Principal\"))\n        # print(\"1 - CRUD de Compras\")\n        print(\"2 - CRUD de Produtos\")\n        print(\"3 - CRUD de Usuários\")\n        # print(\"4 - CRUD de Vendedores\")\n        print(\"0 - Sair\")",
+        "peekOfCode": "def menuPrincipal():\n    while True:\n        limparTerminal()\n        print(\"==\" * 21)\n        print(formatarTexto_negrito(\"Menu Principal\"))\n        # print(\"1 - CRUD de Compras\")\n        print(\"2 - CRUD de Produtos\")\n        print(\"3 - CRUD de Usuários\")\n        print(\"4 - CRUD de Vendedores\")\n        print(\"0 - Sair\")",
         "detail": "src.layouts.menuPrincipal",
         "documentation": {}
     },

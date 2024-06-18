@@ -42,4 +42,4 @@ def deletarFavorito():
     except KeyboardInterrupt:
         return
         
-# Path: src/functions/removerFavorito.py
+# Path: src/functions/deletarFavorito.py
