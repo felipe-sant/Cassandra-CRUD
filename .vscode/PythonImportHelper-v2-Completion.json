@@ -160,6 +160,22 @@
         "documentation": {}
     },
     {
+        "label": "Produto",
+        "importPath": "src.classes.produto",
+        "description": "src.classes.produto",
+        "isExtraImport": true,
+        "detail": "src.classes.produto",
+        "documentation": {}
+    },
+    {
+        "label": "Usuario",
+        "importPath": "src.classes.usuario",
+        "description": "src.classes.usuario",
+        "isExtraImport": true,
+        "detail": "src.classes.usuario",
+        "documentation": {}
+    },
+    {
         "label": "Usuario",
         "importPath": "src.classes.usuario",
         "description": "src.classes.usuario",
@@ -680,15 +696,7 @@
         "documentation": {}
     },
     {
-        "label": "formatarTexto_negrito",
-        "importPath": "src.utils.formatarTexto",
-        "description": "src.utils.formatarTexto",
-        "isExtraImport": true,
-        "detail": "src.utils.formatarTexto",
-        "documentation": {}
-    },
-    {
-        "label": "formatarTexto_vermelho",
+        "label": "formatarTexto_italico",
         "importPath": "src.utils.formatarTexto",
         "description": "src.utils.formatarTexto",
         "isExtraImport": true,
@@ -705,6 +713,38 @@
     },
     {
         "label": "formatarTexto_vermelho",
+        "importPath": "src.utils.formatarTexto",
+        "description": "src.utils.formatarTexto",
+        "isExtraImport": true,
+        "detail": "src.utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_italico",
+        "importPath": "src.utils.formatarTexto",
+        "description": "src.utils.formatarTexto",
+        "isExtraImport": true,
+        "detail": "src.utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_negrito",
+        "importPath": "src.utils.formatarTexto",
+        "description": "src.utils.formatarTexto",
+        "isExtraImport": true,
+        "detail": "src.utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_vermelho",
+        "importPath": "src.utils.formatarTexto",
+        "description": "src.utils.formatarTexto",
+        "isExtraImport": true,
+        "detail": "src.utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_italico",
         "importPath": "src.utils.formatarTexto",
         "description": "src.utils.formatarTexto",
         "isExtraImport": true,
@@ -1032,6 +1072,14 @@
         "documentation": {}
     },
     {
+        "label": "find_one",
+        "importPath": "src.database.find_one",
+        "description": "src.database.find_one",
+        "isExtraImport": true,
+        "detail": "src.database.find_one",
+        "documentation": {}
+    },
+    {
         "label": "criarUsuario",
         "importPath": "src.utils.criarUsuario",
         "description": "src.utils.criarUsuario",
@@ -1061,6 +1109,30 @@
         "description": "src.utils.criarVendedor",
         "isExtraImport": true,
         "detail": "src.utils.criarVendedor",
+        "documentation": {}
+    },
+    {
+        "label": "Vendedor",
+        "importPath": "src.classes.vendedor",
+        "description": "src.classes.vendedor",
+        "isExtraImport": true,
+        "detail": "src.classes.vendedor",
+        "documentation": {}
+    },
+    {
+        "label": "Vendedor",
+        "importPath": "src.classes.vendedor",
+        "description": "src.classes.vendedor",
+        "isExtraImport": true,
+        "detail": "src.classes.vendedor",
+        "documentation": {}
+    },
+    {
+        "label": "Vendedor",
+        "importPath": "src.classes.vendedor",
+        "description": "src.classes.vendedor",
+        "isExtraImport": true,
+        "detail": "src.classes.vendedor",
         "documentation": {}
     },
     {
@@ -1213,22 +1285,6 @@
         "description": "src.functions.listarFavorito",
         "isExtraImport": true,
         "detail": "src.functions.listarFavorito",
-        "documentation": {}
-    },
-    {
-        "label": "Vendedor",
-        "importPath": "src.classes.vendedor",
-        "description": "src.classes.vendedor",
-        "isExtraImport": true,
-        "detail": "src.classes.vendedor",
-        "documentation": {}
-    },
-    {
-        "label": "Vendedor",
-        "importPath": "src.classes.vendedor",
-        "description": "src.classes.vendedor",
-        "isExtraImport": true,
-        "detail": "src.classes.vendedor",
         "documentation": {}
     },
     {
@@ -1694,7 +1750,7 @@
         "kind": 2,
         "importPath": "src.functions.atualizarProduto",
         "description": "src.functions.atualizarProduto",
-        "peekOfCode": "def atualizarProduto():\n    try:\n        id = solicitarInput(f\"Digite o {formatarTexto_negrito(\"id\")} do produto que deseja atualizar: \", isRequired=True)\n        filtro = {\"_id\": id}\n        produto = find_one(\"produto\", filtro)\n        if not produto:\n            raise Exception(\"Produto não encontrado.\")\n        produtoUpdate = criarProduto(isRequired=False)\n        result = update_one(\"produto\", produtoUpdate.toDict(), filtro)\n        if result:",
+        "peekOfCode": "def atualizarProduto():\n    try:\n        id = solicitarInput(f\"Digite o {formatarTexto_negrito(\"id\")} do produto que deseja atualizar: \", isRequired=True)\n        filtro = {\"_id\": id}\n        produto = find_one(\"produto\", filtro)\n        if not produto:\n            raise Exception(\"Produto não encontrado.\")\n        produto = Produto.fromDict(produto)\n        produtoUpdate = criarProduto(isRequired=False, produto=produto)\n        result = update_one(\"produto\", produtoUpdate.toDict(), filtro)",
         "detail": "src.functions.atualizarProduto",
         "documentation": {}
     },
@@ -1703,7 +1759,7 @@
         "kind": 2,
         "importPath": "src.functions.atualizarUsuario",
         "description": "src.functions.atualizarUsuario",
-        "peekOfCode": "def atualizarUsuario():\n    try:\n        id = solicitarInput(f\"Digite o {formatarTexto_negrito(\"id\")} do usuário que deseja atualizar: \", isRequired=True)\n        filtro = {\"_id\": id}\n        usuarioUpdate = criarUsuario(isRequired=False)\n        result = update_one(\"usuario\", usuarioUpdate.toDict(), filtro)\n        if result:\n            print(f\"\\n{formatarTexto_azul(result)}\")\n            input()\n        else:",
+        "peekOfCode": "def atualizarUsuario():\n    try:\n        id = solicitarInput(f\"Digite o {formatarTexto_negrito(\"id\")} do usuário que deseja atualizar: \", isRequired=True)\n        filtro = {\"_id\": id}\n        usuario = find_one(\"usuario\", filtro)\n        if usuario == None:\n            raise Exception(\"Usuário não encontrado.\")\n        usuario = Usuario.fromDict(usuario)\n        usuarioUpdate = criarUsuario(isRequired=False, usuario=usuario)\n        result = update_one(\"usuario\", usuarioUpdate.toDict(), filtro)",
         "detail": "src.functions.atualizarUsuario",
         "documentation": {}
     },
@@ -1712,7 +1768,7 @@
         "kind": 2,
         "importPath": "src.functions.atualizarVendedor",
         "description": "src.functions.atualizarVendedor",
-        "peekOfCode": "def atualizarVendedor():\n    try:\n        id = solicitarInput(f\"Digite o {formatarTexto_negrito(\"id\")} do vendedor que deseja atualizar: \", isRequired=True)\n        filtro = {\"_id\": id}\n        vendedor = find_one(\"vendedor\", filtro)\n        if vendedor == None:\n            raise Exception(\"Vendedor não encontrado.\")\n        vendedorUpdate = criarVendedor(isRequired=False)\n        result = update_one(\"vendedor\", vendedorUpdate.toDict(), filtro)\n        if result:",
+        "peekOfCode": "def atualizarVendedor():\n    try:\n        id = solicitarInput(f\"Digite o {formatarTexto_negrito(\"id\")} do vendedor que deseja atualizar: \", isRequired=True)\n        filtro = {\"_id\": id}\n        vendedor = find_one(\"vendedor\", filtro)\n        if vendedor == None:\n            raise Exception(\"Vendedor não encontrado.\")\n        vendedor = Vendedor.fromDict(vendedor)\n        vendedorUpdate = criarVendedor(isRequired=False, vendedor=vendedor)\n        result = update_one(\"vendedor\", vendedorUpdate.toDict(), filtro)",
         "detail": "src.functions.atualizarVendedor",
         "documentation": {}
     },
@@ -1946,7 +2002,7 @@
         "kind": 2,
         "importPath": "src.utils.criarProduto",
         "description": "src.utils.criarProduto",
-        "peekOfCode": "def criarProduto(isRequired: bool) -> Optional[Produto]:\n    try:\n        nome = solicitarInput(f\"Digite o {formatarTexto_negrito(\"nome\")} do produto: \", isRequired)\n        descricao = solicitarInput(f\"Digite a {formatarTexto_negrito(\"descrição\")} do produto: \", isRequired)\n        preco = solicitarInput(f\"Digite o {formatarTexto_negrito(\"preço\")} do produto: \", isRequired)\n        if preco: preco = float(preco)\n        estoque = solicitarInput(f\"Digite o {formatarTexto_negrito(\"estoque\")} do produto: \", isRequired)\n        if estoque: estoque = int(estoque)\n        produto = Produto(nome=nome, descricao=descricao, preco=preco, estoque=estoque)\n        produto.validate()",
+        "peekOfCode": "def criarProduto(isRequired: bool, produto: Produto = None) -> Optional[Produto]:\n    try:\n        nomeText = f\"Digite o {formatarTexto_negrito('nome')} do produto: \"\n        descricaoText = f\"Digite a {formatarTexto_negrito('descrição')} do produto: \"\n        precoText = f\"Digite o {formatarTexto_negrito('preço')} do produto: \"\n        estoqueText = f\"Digite o {formatarTexto_negrito('estoque')} do produto: \"\n        if produto:\n            nomeText = f\"Digite o novo {formatarTexto_negrito('nome')} do produto {formatarTexto_italico(f\"(atual: {produto.nome})\")}: \"\n            descricaoText = f\"Digite a nova {formatarTexto_negrito('descrição')} do produto {formatarTexto_italico(f\"(atual: {produto.descricao})\")}: \"\n            precoText = f\"Digite o novo {formatarTexto_negrito('preço')} do produto {formatarTexto_italico(f\"(atual: {produto.preco})\")}: \"",
         "detail": "src.utils.criarProduto",
         "documentation": {}
     },
@@ -1955,7 +2011,7 @@
         "kind": 2,
         "importPath": "src.utils.criarUsuario",
         "description": "src.utils.criarUsuario",
-        "peekOfCode": "def criarUsuario(isRequired: bool) -> Optional[Usuario]:\n    try:\n        nome = str(solicitarInput(f\"Digite o {formatarTexto_negrito(\"nome\")} do usuário: \", isRequired)).lower()\n        endereco = str(solicitarInput(f\"Digite o {formatarTexto_negrito(\"endereço\")} do usuário: \", isRequired)).lower()\n        rg = str(solicitarInput(f\"Digite o {formatarTexto_negrito(\"rg\")} do usuário: \", isRequired)).lower()\n        usuario = Usuario(nome=nome, endereco=endereco, rg=rg)\n        usuario.validate()\n        return usuario\n    except Exception as e:\n        print(f\"\\nErro ao criar usuário: {formatarTexto_vermelho(str(e))}\")",
+        "peekOfCode": "def criarUsuario(isRequired: bool, usuario: Usuario = None) -> Optional[Usuario]:\n    try:\n        nomeText = f\"Digite o {formatarTexto_negrito(\"nome\")} do usuário: \"\n        rgText = f\"Digite o {formatarTexto_negrito(\"rg\")} do usuário: \"\n        enderecoText = f\"Digite o {formatarTexto_negrito(\"endereço\")} do usuário: \"\n        if usuario:\n            nomeText = f\"Digite o novo {formatarTexto_negrito('nome')} do usuário {formatarTexto_italico(f\"(atual: {usuario.nome})\")}: \"\n            rgText = f\"Digite o novo {formatarTexto_negrito('rg')} do usuário {formatarTexto_italico(f\"(atual: {usuario.rg})\")}: \"\n            enderecoText = f\"Digite o novo {formatarTexto_negrito('endereço')} do usuário {formatarTexto_italico(f\"(atual: {usuario.endereco})\")}: \"\n        nome = str(solicitarInput(nomeText, isRequired)).lower()",
         "detail": "src.utils.criarUsuario",
         "documentation": {}
     },
@@ -1964,7 +2020,7 @@
         "kind": 2,
         "importPath": "src.utils.criarVendedor",
         "description": "src.utils.criarVendedor",
-        "peekOfCode": "def criarVendedor(isRequired: bool) -> Optional[Vendedor]:\n    try:\n        nome = solicitarInput(f\"Digite o {formatarTexto_negrito(\"nome\")} do vendedor: \", isRequired)\n        rg = solicitarInput(f\"Digite o {formatarTexto_negrito(\"rg\")} do vendedor: \", isRequired)\n        vendedor = Vendedor(nome=nome, rg=rg)\n        vendedor.validate()\n        return vendedor\n    except Exception as e:\n        print(f\"\\nErro ao criar vendedor: {formatarTexto_vermelho(str(e))}\")\n        input()",
+        "peekOfCode": "def criarVendedor(isRequired: bool, vendedor: Vendedor = None) -> Optional[Vendedor]:\n    try:\n        nomeText = f\"Digite o {formatarTexto_negrito(\"nome\")} do vendedor: \"\n        rgText = f\"Digite o {formatarTexto_negrito(\"rg\")} do vendedor: \"\n        if vendedor:\n            nomeText = f\"Digite o novo {formatarTexto_negrito('nome')} do vendedor {formatarTexto_italico(f\"(atual: {vendedor.nome})\")}: \"\n            rgText = f\"Digite o novo {formatarTexto_negrito('rg')} do vendedor {formatarTexto_italico(f\"(atual: {vendedor.rg})\")}: \"\n        nome = solicitarInput(nomeText, isRequired)\n        rg = solicitarInput(rgText, isRequired)\n        vendedor = Vendedor(nome=nome, rg=rg)",
         "detail": "src.utils.criarVendedor",
         "documentation": {}
     },

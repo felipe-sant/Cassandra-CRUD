@@ -1,12 +1,18 @@
 from typing import Optional
 from src.classes.vendedor import Vendedor
 from src.utils.solicitarInput import solicitarInput
-from src.utils.formatarTexto import formatarTexto_negrito, formatarTexto_vermelho
+from src.utils.formatarTexto import (formatarTexto_italico, formatarTexto_negrito,
+    formatarTexto_vermelho)
 
-def criarVendedor(isRequired: bool) -> Optional[Vendedor]:
+def criarVendedor(isRequired: bool, vendedor: Vendedor = None) -> Optional[Vendedor]:
     try:
-        nome = solicitarInput(f"Digite o {formatarTexto_negrito("nome")} do vendedor: ", isRequired)
-        rg = solicitarInput(f"Digite o {formatarTexto_negrito("rg")} do vendedor: ", isRequired)
+        nomeText = f"Digite o {formatarTexto_negrito("nome")} do vendedor: "
+        rgText = f"Digite o {formatarTexto_negrito("rg")} do vendedor: "
+        if vendedor:
+            nomeText = f"Digite o novo {formatarTexto_negrito('nome')} do vendedor {formatarTexto_italico(f"(atual: {vendedor.nome})")}: "
+            rgText = f"Digite o novo {formatarTexto_negrito('rg')} do vendedor {formatarTexto_italico(f"(atual: {vendedor.rg})")}: "
+        nome = solicitarInput(nomeText, isRequired)
+        rg = solicitarInput(rgText, isRequired)
         vendedor = Vendedor(nome=nome, rg=rg)
         vendedor.validate()
         return vendedor
