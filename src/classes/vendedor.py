@@ -18,7 +18,7 @@ class Vendedor:
             listagem += "produtos:\n"
             for produto in self.produtos:
                 count -= 1
-                listagem += f"\t_id: {produto['_id']}\n" if produto.get("_id", None) else ""
+                listagem += f"\tid: {produto['id']}\n" if produto.get("id", None) else ""
                 listagem += f"\tnome: {produto['nome']}\n" if produto.get("nome", None) else ""
                 listagem += f"\tpreco: {produto['preco']}\n" if produto.get("preco", None) else ""
                 if count != 0:
@@ -31,7 +31,8 @@ class Vendedor:
             "nome": produto.nome,
             "preco": produto.preco
         }
-        self.produtos.append(newProduto)
+        if newProduto not in self.produtos:
+            self.produtos.append(newProduto)
         
     def removeProduto(self, _id: str) -> None:
         for produto in self.produtos:

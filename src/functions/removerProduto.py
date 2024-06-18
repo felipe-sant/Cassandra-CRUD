@@ -14,10 +14,10 @@ def removerProduto(colecao: dict) -> dict:
             colecao.removeProduto(id)
             print(f"{formatarTexto_azul('Produto removido com sucesso!')}")
             input()
-            return colecao
+            return colecao  
     except Exception as e:
         print(f"\nErro ao remover produto: {formatarTexto_vermelho(str(e))}")
         input()
         return colecao
     except KeyboardInterrupt:
-        return
+        return colecao
