@@ -6,6 +6,7 @@ from src.utils.criarVendedor import criarVendedor
 from src.database.update_one import update_one
 from src.classes.vendedor import Vendedor
 from src.layouts.menuCampoProdutos import menuCampoProdutos
+from src.functions.setarVendedorProdutos import setarVendedorProduto
 
 def atualizarVendedor():
     try:
@@ -20,9 +21,11 @@ def atualizarVendedor():
         if opcao.lower() == "s":
             vendedorUpdate.produtos = vendedor.produtos
             vendedorUpdate = menuCampoProdutos(vendedorUpdate)
+            vendedor.produtos = vendedorUpdate.produtos
         result = update_one("vendedor", vendedorUpdate.toDict(), filtro)
         if result:
             print(f"\n{formatarTexto_azul(result)}")
+            setarVendedorProduto(vendedor)
             input()
         else:
             raise Exception("Erro ao atualizar vendedor.")

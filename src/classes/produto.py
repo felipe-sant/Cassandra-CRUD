@@ -18,7 +18,7 @@ class Produto:
         listagem += f"estoque: {self.estoque}\n" if self.estoque != 0 else ""
         if self.vendedor:
             listagem += "vendedor:\n"
-            listagem += f"\t_id: {self.vendedor['_id']}\n" if self.vendedor.get("_id", None) else ""
+            listagem += f"\tid: {self.vendedor['id']}\n" if self.vendedor.get("id", None) else ""
             listagem += f"\tnome: {self.vendedor['nome']}\n" if self.vendedor.get("nome", None) else ""
         return listagem
     

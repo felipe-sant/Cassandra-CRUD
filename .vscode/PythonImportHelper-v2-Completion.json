@@ -176,6 +176,14 @@
         "documentation": {}
     },
     {
+        "label": "Produto",
+        "importPath": "src.classes.produto",
+        "description": "src.classes.produto",
+        "isExtraImport": true,
+        "detail": "src.classes.produto",
+        "documentation": {}
+    },
+    {
         "label": "Usuario",
         "importPath": "src.classes.usuario",
         "description": "src.classes.usuario",
@@ -688,6 +696,14 @@
         "documentation": {}
     },
     {
+        "label": "formatarTexto_vermelho",
+        "importPath": "src.utils.formatarTexto",
+        "description": "src.utils.formatarTexto",
+        "isExtraImport": true,
+        "detail": "src.utils.formatarTexto",
+        "documentation": {}
+    },
+    {
         "label": "formatarTexto_negrito",
         "importPath": "src.utils.formatarTexto",
         "description": "src.utils.formatarTexto",
@@ -1136,6 +1152,14 @@
         "documentation": {}
     },
     {
+        "label": "find_one",
+        "importPath": "src.database.find_one",
+        "description": "src.database.find_one",
+        "isExtraImport": true,
+        "detail": "src.database.find_one",
+        "documentation": {}
+    },
+    {
         "label": "criarProduto",
         "importPath": "src.utils.criarProduto",
         "description": "src.utils.criarProduto",
@@ -1149,6 +1173,14 @@
         "description": "src.utils.criarProduto",
         "isExtraImport": true,
         "detail": "src.utils.criarProduto",
+        "documentation": {}
+    },
+    {
+        "label": "update_one",
+        "importPath": "src.database.update_one",
+        "description": "src.database.update_one",
+        "isExtraImport": true,
+        "detail": "src.database.update_one",
         "documentation": {}
     },
     {
@@ -1240,6 +1272,14 @@
         "documentation": {}
     },
     {
+        "label": "Vendedor",
+        "importPath": "src.classes.vendedor",
+        "description": "src.classes.vendedor",
+        "isExtraImport": true,
+        "detail": "src.classes.vendedor",
+        "documentation": {}
+    },
+    {
         "label": "menuCampoProdutos",
         "importPath": "src.layouts.menuCampoProdutos",
         "description": "src.layouts.menuCampoProdutos",
@@ -1253,6 +1293,22 @@
         "description": "src.layouts.menuCampoProdutos",
         "isExtraImport": true,
         "detail": "src.layouts.menuCampoProdutos",
+        "documentation": {}
+    },
+    {
+        "label": "setarVendedorProduto",
+        "importPath": "src.functions.setarVendedorProdutos",
+        "description": "src.functions.setarVendedorProdutos",
+        "isExtraImport": true,
+        "detail": "src.functions.setarVendedorProdutos",
+        "documentation": {}
+    },
+    {
+        "label": "setarVendedorProduto",
+        "importPath": "src.functions.setarVendedorProdutos",
+        "description": "src.functions.setarVendedorProdutos",
+        "isExtraImport": true,
+        "detail": "src.functions.setarVendedorProdutos",
         "documentation": {}
     },
     {
@@ -1982,7 +2038,7 @@
         "kind": 2,
         "importPath": "src.functions.cadastrarVendedor",
         "description": "src.functions.cadastrarVendedor",
-        "peekOfCode": "def cadastrarVendedor():\n    try:\n        vendedor = criarVendedor(isRequired=True)\n        vendedor = menuCampoProdutos(vendedor)\n        if vendedor:\n            result = insert_one(\"vendedor\", vendedor.toDict())\n            if result:\n                print(f\"\\n{formatarTexto_azul(result)}\")\n                input()\n        else:",
+        "peekOfCode": "def cadastrarVendedor():\n    try:\n        vendedor = criarVendedor(isRequired=True)\n        opcao = input(\"\\nDeseja adicionar produtos ao vendedor? (s/n): \")\n        if opcao.lower() == \"s\":\n            vendedor = menuCampoProdutos(vendedor)\n        if vendedor:\n            result = insert_one(\"vendedor\", vendedor.toDict())\n            if result:\n                print(f\"\\n{formatarTexto_azul(result)}\")",
         "detail": "src.functions.cadastrarVendedor",
         "documentation": {}
     },
@@ -2110,6 +2166,15 @@
         "description": "src.functions.removerProduto",
         "peekOfCode": "def removerProduto(colecao: dict) -> dict:\n    try:\n        id = solicitarInput(f\"Digite o {formatarTexto_negrito(\"id\")} do produto: \")\n        filtro = {\"_id\": id}\n        produto = find_one(\"produto\", filtro)\n        if produto == None:\n            raise Exception(\"Produto não encontrado\")\n        else:\n            colecao.removeProduto(id)\n            print(f\"{formatarTexto_azul('Produto removido com sucesso!')}\")",
         "detail": "src.functions.removerProduto",
+        "documentation": {}
+    },
+    {
+        "label": "setarVendedorProduto",
+        "kind": 2,
+        "importPath": "src.functions.setarVendedorProdutos",
+        "description": "src.functions.setarVendedorProdutos",
+        "peekOfCode": "def setarVendedorProduto(vendedor: Vendedor):\n    try:\n        for produto in vendedor.produtos:\n            filtro = {\"_id\": produto[\"id\"]}\n            produtoJson = find_one(\"produto\", filtro)\n            if produtoJson:\n                vendedorJson = {\n                    \"id\": vendedor._id,\n                    \"nome\": vendedor.nome\n                }",
+        "detail": "src.functions.setarVendedorProdutos",
         "documentation": {}
     },
     {
