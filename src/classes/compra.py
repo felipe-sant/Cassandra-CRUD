@@ -17,23 +17,32 @@ class Compra:
         listagem += f"valorTotal: {self.valorTotal}\n" if self.valorTotal != 0.0 else ""
         if self.usuario:
             listagem += "usuario:\n"
-            listagem += f"\t_id: {self.usuario['_id']}\n" if self.usuario.get("_id", None) else ""
+            listagem += f"\t_id: {self.usuario['id']}\n" if self.usuario.get("id", None) else ""
             listagem += f"\tnome: {self.usuario['nome']}\n" if self.usuario.get("nome", None) else ""
         if self.produtos != []:
             count = len(self.produtos)
             listagem += "produtos:\n"
             for produto in self.produtos:
                 count -= 1
-                listagem += f"\t_id: {produto['_id']}\n" if produto.get("_id", None) else ""
+                listagem += f"\t_id: {produto['id']}\n" if produto.get("id", None) else ""
                 listagem += f"\tnome: {produto['nome']}\n" if produto.get("nome", None) else ""
                 listagem += f"\tpreco: {produto['preco']}\n" if produto.get("preco", None) else ""
                 if count != 0:
                     listagem += "\t-----------------\n"
         return listagem
     
+    def calcularValorTotal(self):
+        valorTotal = 0.0
+        for produto in self.produtos:
+            valorTotal += produto.get("preco", 0.0)
+        self.valorTotal = valorTotal
+    
     def setUsuario(self, usuario: Usuario) -> None:
-        newUsuario = Usuario(_id = usuario._id, nome = usuario.nome)
-        self.usuario = newUsuario.toDict()
+        newUsuario = {
+            "id": usuario._id,
+            "nome": usuario.nome
+        }
+        self.usuario = newUsuario
     
     def addProduto(self, produto: Produto) -> None:
         newProduto = {

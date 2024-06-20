@@ -17,7 +17,7 @@ def atualizarVendedor():
             raise Exception("Vendedor não encontrado.")
         vendedor = Vendedor.fromDict(vendedor)
         vendedorUpdate = criarVendedor(isRequired=False, vendedor=vendedor)
-        opcao = input("\nDeseja atualizar os produtos do vendedor? (s/n): ")
+        opcao = input(f"\nDeseja atualizar os {formatarTexto_negrito("produtos")} do vendedor? (s/n): ")
         if opcao.lower() == "s":
             vendedorUpdate.produtos = vendedor.produtos
             vendedorUpdate = menuCampoProdutos(vendedorUpdate)

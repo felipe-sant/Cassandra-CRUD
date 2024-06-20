@@ -240,6 +240,14 @@
         "documentation": {}
     },
     {
+        "label": "Usuario",
+        "importPath": "src.classes.usuario",
+        "description": "src.classes.usuario",
+        "isExtraImport": true,
+        "detail": "src.classes.usuario",
+        "documentation": {}
+    },
+    {
         "label": "DataAPIClient",
         "importPath": "astrapy",
         "description": "astrapy",
@@ -456,6 +464,70 @@
         "documentation": {}
     },
     {
+        "label": "formatarTexto_negrito",
+        "importPath": "src.utils.formatarTexto",
+        "description": "src.utils.formatarTexto",
+        "isExtraImport": true,
+        "detail": "src.utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_vermelho",
+        "importPath": "src.utils.formatarTexto",
+        "description": "src.utils.formatarTexto",
+        "isExtraImport": true,
+        "detail": "src.utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_azul",
+        "importPath": "src.utils.formatarTexto",
+        "description": "src.utils.formatarTexto",
+        "isExtraImport": true,
+        "detail": "src.utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_vermelho",
+        "importPath": "src.utils.formatarTexto",
+        "description": "src.utils.formatarTexto",
+        "isExtraImport": true,
+        "detail": "src.utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_azul",
+        "importPath": "src.utils.formatarTexto",
+        "description": "src.utils.formatarTexto",
+        "isExtraImport": true,
+        "detail": "src.utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_negrito",
+        "importPath": "src.utils.formatarTexto",
+        "description": "src.utils.formatarTexto",
+        "isExtraImport": true,
+        "detail": "src.utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_vermelho",
+        "importPath": "src.utils.formatarTexto",
+        "description": "src.utils.formatarTexto",
+        "isExtraImport": true,
+        "detail": "src.utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_azul",
+        "importPath": "src.utils.formatarTexto",
+        "description": "src.utils.formatarTexto",
+        "isExtraImport": true,
+        "detail": "src.utils.formatarTexto",
+        "documentation": {}
+    },
+    {
         "label": "formatarTexto_vermelho",
         "importPath": "src.utils.formatarTexto",
         "description": "src.utils.formatarTexto",
@@ -569,6 +641,54 @@
     },
     {
         "label": "formatarTexto_azul",
+        "importPath": "src.utils.formatarTexto",
+        "description": "src.utils.formatarTexto",
+        "isExtraImport": true,
+        "detail": "src.utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_negrito",
+        "importPath": "src.utils.formatarTexto",
+        "description": "src.utils.formatarTexto",
+        "isExtraImport": true,
+        "detail": "src.utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_vermelho",
+        "importPath": "src.utils.formatarTexto",
+        "description": "src.utils.formatarTexto",
+        "isExtraImport": true,
+        "detail": "src.utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_azul",
+        "importPath": "src.utils.formatarTexto",
+        "description": "src.utils.formatarTexto",
+        "isExtraImport": true,
+        "detail": "src.utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_negrito",
+        "importPath": "src.utils.formatarTexto",
+        "description": "src.utils.formatarTexto",
+        "isExtraImport": true,
+        "detail": "src.utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_vermelho",
+        "importPath": "src.utils.formatarTexto",
+        "description": "src.utils.formatarTexto",
+        "isExtraImport": true,
+        "detail": "src.utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_italico",
         "importPath": "src.utils.formatarTexto",
         "description": "src.utils.formatarTexto",
         "isExtraImport": true,
@@ -753,6 +873,22 @@
     },
     {
         "label": "formatarTexto_negrito",
+        "importPath": "src.utils.formatarTexto",
+        "description": "src.utils.formatarTexto",
+        "isExtraImport": true,
+        "detail": "src.utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_negrito",
+        "importPath": "src.utils.formatarTexto",
+        "description": "src.utils.formatarTexto",
+        "isExtraImport": true,
+        "detail": "src.utils.formatarTexto",
+        "documentation": {}
+    },
+    {
+        "label": "formatarTexto_italico",
         "importPath": "src.utils.formatarTexto",
         "description": "src.utils.formatarTexto",
         "isExtraImport": true,
@@ -1040,11 +1176,27 @@
         "documentation": {}
     },
     {
-        "label": "find_one",
-        "importPath": "src.database.find_one",
-        "description": "src.database.find_one",
+        "label": "solicitarInput",
+        "importPath": "src.utils.solicitarInput",
+        "description": "src.utils.solicitarInput",
         "isExtraImport": true,
-        "detail": "src.database.find_one",
+        "detail": "src.utils.solicitarInput",
+        "documentation": {}
+    },
+    {
+        "label": "solicitarInput",
+        "importPath": "src.utils.solicitarInput",
+        "description": "src.utils.solicitarInput",
+        "isExtraImport": true,
+        "detail": "src.utils.solicitarInput",
+        "documentation": {}
+    },
+    {
+        "label": "solicitarInput",
+        "importPath": "src.utils.solicitarInput",
+        "description": "src.utils.solicitarInput",
+        "isExtraImport": true,
+        "detail": "src.utils.solicitarInput",
         "documentation": {}
     },
     {
@@ -1157,6 +1309,198 @@
         "description": "src.database.find_one",
         "isExtraImport": true,
         "detail": "src.database.find_one",
+        "documentation": {}
+    },
+    {
+        "label": "find_one",
+        "importPath": "src.database.find_one",
+        "description": "src.database.find_one",
+        "isExtraImport": true,
+        "detail": "src.database.find_one",
+        "documentation": {}
+    },
+    {
+        "label": "find_one",
+        "importPath": "src.database.find_one",
+        "description": "src.database.find_one",
+        "isExtraImport": true,
+        "detail": "src.database.find_one",
+        "documentation": {}
+    },
+    {
+        "label": "find_one",
+        "importPath": "src.database.find_one",
+        "description": "src.database.find_one",
+        "isExtraImport": true,
+        "detail": "src.database.find_one",
+        "documentation": {}
+    },
+    {
+        "label": "find_one",
+        "importPath": "src.database.find_one",
+        "description": "src.database.find_one",
+        "isExtraImport": true,
+        "detail": "src.database.find_one",
+        "documentation": {}
+    },
+    {
+        "label": "find_one",
+        "importPath": "src.database.find_one",
+        "description": "src.database.find_one",
+        "isExtraImport": true,
+        "detail": "src.database.find_one",
+        "documentation": {}
+    },
+    {
+        "label": "Compra",
+        "importPath": "src.classes.compra",
+        "description": "src.classes.compra",
+        "isExtraImport": true,
+        "detail": "src.classes.compra",
+        "documentation": {}
+    },
+    {
+        "label": "Compra",
+        "importPath": "src.classes.compra",
+        "description": "src.classes.compra",
+        "isExtraImport": true,
+        "detail": "src.classes.compra",
+        "documentation": {}
+    },
+    {
+        "label": "Compra",
+        "importPath": "src.classes.compra",
+        "description": "src.classes.compra",
+        "isExtraImport": true,
+        "detail": "src.classes.compra",
+        "documentation": {}
+    },
+    {
+        "label": "Compra",
+        "importPath": "src.classes.compra",
+        "description": "src.classes.compra",
+        "isExtraImport": true,
+        "detail": "src.classes.compra",
+        "documentation": {}
+    },
+    {
+        "label": "Compra",
+        "importPath": "src.classes.compra",
+        "description": "src.classes.compra",
+        "isExtraImport": true,
+        "detail": "src.classes.compra",
+        "documentation": {}
+    },
+    {
+        "label": "Compra",
+        "importPath": "src.classes.compra",
+        "description": "src.classes.compra",
+        "isExtraImport": true,
+        "detail": "src.classes.compra",
+        "documentation": {}
+    },
+    {
+        "label": "criarCompra",
+        "importPath": "src.utils.criarCompra",
+        "description": "src.utils.criarCompra",
+        "isExtraImport": true,
+        "detail": "src.utils.criarCompra",
+        "documentation": {}
+    },
+    {
+        "label": "criarCompra",
+        "importPath": "src.utils.criarCompra",
+        "description": "src.utils.criarCompra",
+        "isExtraImport": true,
+        "detail": "src.utils.criarCompra",
+        "documentation": {}
+    },
+    {
+        "label": "menuCampoUsuario",
+        "importPath": "src.layouts.menuCampoUsuario",
+        "description": "src.layouts.menuCampoUsuario",
+        "isExtraImport": true,
+        "detail": "src.layouts.menuCampoUsuario",
+        "documentation": {}
+    },
+    {
+        "label": "menuCampoUsuario",
+        "importPath": "src.layouts.menuCampoUsuario",
+        "description": "src.layouts.menuCampoUsuario",
+        "isExtraImport": true,
+        "detail": "src.layouts.menuCampoUsuario",
+        "documentation": {}
+    },
+    {
+        "label": "menuCampoProdutos",
+        "importPath": "src.layouts.menuCampoProdutos",
+        "description": "src.layouts.menuCampoProdutos",
+        "isExtraImport": true,
+        "detail": "src.layouts.menuCampoProdutos",
+        "documentation": {}
+    },
+    {
+        "label": "menuCampoProdutos",
+        "importPath": "src.layouts.menuCampoProdutos",
+        "description": "src.layouts.menuCampoProdutos",
+        "isExtraImport": true,
+        "detail": "src.layouts.menuCampoProdutos",
+        "documentation": {}
+    },
+    {
+        "label": "menuCampoProdutos",
+        "importPath": "src.layouts.menuCampoProdutos",
+        "description": "src.layouts.menuCampoProdutos",
+        "isExtraImport": true,
+        "detail": "src.layouts.menuCampoProdutos",
+        "documentation": {}
+    },
+    {
+        "label": "menuCampoProdutos",
+        "importPath": "src.layouts.menuCampoProdutos",
+        "description": "src.layouts.menuCampoProdutos",
+        "isExtraImport": true,
+        "detail": "src.layouts.menuCampoProdutos",
+        "documentation": {}
+    },
+    {
+        "label": "update_one",
+        "importPath": "src.database.update_one",
+        "description": "src.database.update_one",
+        "isExtraImport": true,
+        "detail": "src.database.update_one",
+        "documentation": {}
+    },
+    {
+        "label": "update_one",
+        "importPath": "src.database.update_one",
+        "description": "src.database.update_one",
+        "isExtraImport": true,
+        "detail": "src.database.update_one",
+        "documentation": {}
+    },
+    {
+        "label": "update_one",
+        "importPath": "src.database.update_one",
+        "description": "src.database.update_one",
+        "isExtraImport": true,
+        "detail": "src.database.update_one",
+        "documentation": {}
+    },
+    {
+        "label": "update_one",
+        "importPath": "src.database.update_one",
+        "description": "src.database.update_one",
+        "isExtraImport": true,
+        "detail": "src.database.update_one",
+        "documentation": {}
+    },
+    {
+        "label": "update_one",
+        "importPath": "src.database.update_one",
+        "description": "src.database.update_one",
+        "isExtraImport": true,
+        "detail": "src.database.update_one",
         "documentation": {}
     },
     {
@@ -1173,38 +1517,6 @@
         "description": "src.utils.criarProduto",
         "isExtraImport": true,
         "detail": "src.utils.criarProduto",
-        "documentation": {}
-    },
-    {
-        "label": "update_one",
-        "importPath": "src.database.update_one",
-        "description": "src.database.update_one",
-        "isExtraImport": true,
-        "detail": "src.database.update_one",
-        "documentation": {}
-    },
-    {
-        "label": "update_one",
-        "importPath": "src.database.update_one",
-        "description": "src.database.update_one",
-        "isExtraImport": true,
-        "detail": "src.database.update_one",
-        "documentation": {}
-    },
-    {
-        "label": "update_one",
-        "importPath": "src.database.update_one",
-        "description": "src.database.update_one",
-        "isExtraImport": true,
-        "detail": "src.database.update_one",
-        "documentation": {}
-    },
-    {
-        "label": "update_one",
-        "importPath": "src.database.update_one",
-        "description": "src.database.update_one",
-        "isExtraImport": true,
-        "detail": "src.database.update_one",
         "documentation": {}
     },
     {
@@ -1280,22 +1592,6 @@
         "documentation": {}
     },
     {
-        "label": "menuCampoProdutos",
-        "importPath": "src.layouts.menuCampoProdutos",
-        "description": "src.layouts.menuCampoProdutos",
-        "isExtraImport": true,
-        "detail": "src.layouts.menuCampoProdutos",
-        "documentation": {}
-    },
-    {
-        "label": "menuCampoProdutos",
-        "importPath": "src.layouts.menuCampoProdutos",
-        "description": "src.layouts.menuCampoProdutos",
-        "isExtraImport": true,
-        "detail": "src.layouts.menuCampoProdutos",
-        "documentation": {}
-    },
-    {
         "label": "setarVendedorProduto",
         "importPath": "src.functions.setarVendedorProdutos",
         "description": "src.functions.setarVendedorProdutos",
@@ -1312,11 +1608,19 @@
         "documentation": {}
     },
     {
-        "label": "insert_one",
-        "importPath": "src.database.insert_one",
-        "description": "src.database.insert_one",
+        "label": "adicionarUsuario",
+        "importPath": "src.functions.adicionarUsuario",
+        "description": "src.functions.adicionarUsuario",
         "isExtraImport": true,
-        "detail": "src.database.insert_one",
+        "detail": "src.functions.adicionarUsuario",
+        "documentation": {}
+    },
+    {
+        "label": "adicionarUsuario",
+        "importPath": "src.functions.adicionarUsuario",
+        "description": "src.functions.adicionarUsuario",
+        "isExtraImport": true,
+        "detail": "src.functions.adicionarUsuario",
         "documentation": {}
     },
     {
@@ -1344,35 +1648,19 @@
         "documentation": {}
     },
     {
-        "label": "delete_one",
-        "importPath": "src.database.delete_one",
-        "description": "src.database.delete_one",
+        "label": "insert_one",
+        "importPath": "src.database.insert_one",
+        "description": "src.database.insert_one",
         "isExtraImport": true,
-        "detail": "src.database.delete_one",
+        "detail": "src.database.insert_one",
         "documentation": {}
     },
     {
-        "label": "delete_one",
-        "importPath": "src.database.delete_one",
-        "description": "src.database.delete_one",
+        "label": "insert_one",
+        "importPath": "src.database.insert_one",
+        "description": "src.database.insert_one",
         "isExtraImport": true,
-        "detail": "src.database.delete_one",
-        "documentation": {}
-    },
-    {
-        "label": "delete_one",
-        "importPath": "src.database.delete_one",
-        "description": "src.database.delete_one",
-        "isExtraImport": true,
-        "detail": "src.database.delete_one",
-        "documentation": {}
-    },
-    {
-        "label": "delete_one",
-        "importPath": "src.database.delete_one",
-        "description": "src.database.delete_one",
-        "isExtraImport": true,
-        "detail": "src.database.delete_one",
+        "detail": "src.database.insert_one",
         "documentation": {}
     },
     {
@@ -1400,35 +1688,51 @@
         "documentation": {}
     },
     {
-        "label": "find",
-        "importPath": "src.database.find",
-        "description": "src.database.find",
+        "label": "delete_all",
+        "importPath": "src.database.delete_all",
+        "description": "src.database.delete_all",
         "isExtraImport": true,
-        "detail": "src.database.find",
+        "detail": "src.database.delete_all",
         "documentation": {}
     },
     {
-        "label": "find",
-        "importPath": "src.database.find",
-        "description": "src.database.find",
+        "label": "delete_one",
+        "importPath": "src.database.delete_one",
+        "description": "src.database.delete_one",
         "isExtraImport": true,
-        "detail": "src.database.find",
+        "detail": "src.database.delete_one",
         "documentation": {}
     },
     {
-        "label": "find",
-        "importPath": "src.database.find",
-        "description": "src.database.find",
+        "label": "delete_one",
+        "importPath": "src.database.delete_one",
+        "description": "src.database.delete_one",
         "isExtraImport": true,
-        "detail": "src.database.find",
+        "detail": "src.database.delete_one",
         "documentation": {}
     },
     {
-        "label": "find",
-        "importPath": "src.database.find",
-        "description": "src.database.find",
+        "label": "delete_one",
+        "importPath": "src.database.delete_one",
+        "description": "src.database.delete_one",
         "isExtraImport": true,
-        "detail": "src.database.find",
+        "detail": "src.database.delete_one",
+        "documentation": {}
+    },
+    {
+        "label": "delete_one",
+        "importPath": "src.database.delete_one",
+        "description": "src.database.delete_one",
+        "isExtraImport": true,
+        "detail": "src.database.delete_one",
+        "documentation": {}
+    },
+    {
+        "label": "delete_one",
+        "importPath": "src.database.delete_one",
+        "description": "src.database.delete_one",
+        "isExtraImport": true,
+        "detail": "src.database.delete_one",
         "documentation": {}
     },
     {
@@ -1453,6 +1757,54 @@
         "description": "src.database.count_documents",
         "isExtraImport": true,
         "detail": "src.database.count_documents",
+        "documentation": {}
+    },
+    {
+        "label": "count_documents",
+        "importPath": "src.database.count_documents",
+        "description": "src.database.count_documents",
+        "isExtraImport": true,
+        "detail": "src.database.count_documents",
+        "documentation": {}
+    },
+    {
+        "label": "find",
+        "importPath": "src.database.find",
+        "description": "src.database.find",
+        "isExtraImport": true,
+        "detail": "src.database.find",
+        "documentation": {}
+    },
+    {
+        "label": "find",
+        "importPath": "src.database.find",
+        "description": "src.database.find",
+        "isExtraImport": true,
+        "detail": "src.database.find",
+        "documentation": {}
+    },
+    {
+        "label": "find",
+        "importPath": "src.database.find",
+        "description": "src.database.find",
+        "isExtraImport": true,
+        "detail": "src.database.find",
+        "documentation": {}
+    },
+    {
+        "label": "find",
+        "importPath": "src.database.find",
+        "description": "src.database.find",
+        "isExtraImport": true,
+        "detail": "src.database.find",
+        "documentation": {}
+    },
+    {
+        "label": "find",
+        "importPath": "src.database.find",
+        "description": "src.database.find",
+        "isExtraImport": true,
+        "detail": "src.database.find",
         "documentation": {}
     },
     {
@@ -1461,6 +1813,14 @@
         "description": "src.functions.listarFavorito",
         "isExtraImport": true,
         "detail": "src.functions.listarFavorito",
+        "documentation": {}
+    },
+    {
+        "label": "limparTerminal",
+        "importPath": "src.utils.limparTerminal",
+        "description": "src.utils.limparTerminal",
+        "isExtraImport": true,
+        "detail": "src.utils.limparTerminal",
         "documentation": {}
     },
     {
@@ -1560,19 +1920,27 @@
         "documentation": {}
     },
     {
-        "label": "Compra",
-        "importPath": "src.classes.compra",
-        "description": "src.classes.compra",
+        "label": "listarUsuario",
+        "importPath": "src.functions.listarUsuario",
+        "description": "src.functions.listarUsuario",
         "isExtraImport": true,
-        "detail": "src.classes.compra",
+        "detail": "src.functions.listarUsuario",
         "documentation": {}
     },
     {
-        "label": "Compra",
-        "importPath": "src.classes.compra",
-        "description": "src.classes.compra",
+        "label": "listarUsuario",
+        "importPath": "src.functions.listarUsuario",
+        "description": "src.functions.listarUsuario",
         "isExtraImport": true,
-        "detail": "src.classes.compra",
+        "detail": "src.functions.listarUsuario",
+        "documentation": {}
+    },
+    {
+        "label": "listarUsuario",
+        "importPath": "src.functions.listarUsuario",
+        "description": "src.functions.listarUsuario",
+        "isExtraImport": true,
+        "detail": "src.functions.listarUsuario",
         "documentation": {}
     },
     {
@@ -1605,22 +1973,6 @@
         "description": "src.functions.deletarCompra",
         "isExtraImport": true,
         "detail": "src.functions.deletarCompra",
-        "documentation": {}
-    },
-    {
-        "label": "listarUsuario",
-        "importPath": "src.functions.listarUsuario",
-        "description": "src.functions.listarUsuario",
-        "isExtraImport": true,
-        "detail": "src.functions.listarUsuario",
-        "documentation": {}
-    },
-    {
-        "label": "listarUsuario",
-        "importPath": "src.functions.listarUsuario",
-        "description": "src.functions.listarUsuario",
-        "isExtraImport": true,
-        "detail": "src.functions.listarUsuario",
         "documentation": {}
     },
     {
@@ -1962,11 +2314,20 @@
         "documentation": {}
     },
     {
+        "label": "adicionarUsuario",
+        "kind": 2,
+        "importPath": "src.functions.adicionarUsuario",
+        "description": "src.functions.adicionarUsuario",
+        "peekOfCode": "def adicionarUsuario(compra: Compra) -> None:\n    try:\n        id = solicitarInput(f\"Digite o {formatarTexto_negrito(\"id\")} do usuário: \")\n        filtro = {\"_id\": id}\n        usuario = find_one(\"usuario\", filtro)\n        if usuario == None:\n            raise Exception(\"Usuário não encontrado\")\n        else:\n            usuario = Usuario.fromDict(usuario)\n            compra.setUsuario(usuario)",
+        "detail": "src.functions.adicionarUsuario",
+        "documentation": {}
+    },
+    {
         "label": "atualizarCompra",
         "kind": 2,
         "importPath": "src.functions.atualizarCompra",
         "description": "src.functions.atualizarCompra",
-        "peekOfCode": "def atualizarCompra():\n    pass",
+        "peekOfCode": "def atualizarCompra():\n    try:\n        id = solicitarInput(f\"Digite o {formatarTexto_negrito(\"id\")} da compra que deseja atualizar: \", isRequired=True)\n        filtro = {\"_id\": id}\n        compra = find_one(\"compra\", filtro)\n        if compra == None:\n            raise Exception(\"Compra não encontrada.\")\n        compra = Compra.fromDict(compra)\n        compraUpdate = criarCompra(isRequired=False, compra=compra)\n        opcao = input(f\"\\nDeseja atualizar o {formatarTexto_negrito(\"usuario\")} da compra? (s/n): \")",
         "detail": "src.functions.atualizarCompra",
         "documentation": {}
     },
@@ -1993,7 +2354,7 @@
         "kind": 2,
         "importPath": "src.functions.atualizarVendedor",
         "description": "src.functions.atualizarVendedor",
-        "peekOfCode": "def atualizarVendedor():\n    try:\n        id = solicitarInput(f\"Digite o {formatarTexto_negrito(\"id\")} do vendedor que deseja atualizar: \", isRequired=True)\n        filtro = {\"_id\": id}\n        vendedor = find_one(\"vendedor\", filtro)\n        if vendedor == None:\n            raise Exception(\"Vendedor não encontrado.\")\n        vendedor = Vendedor.fromDict(vendedor)\n        vendedorUpdate = criarVendedor(isRequired=False, vendedor=vendedor)\n        opcao = input(\"\\nDeseja atualizar os produtos do vendedor? (s/n): \")",
+        "peekOfCode": "def atualizarVendedor():\n    try:\n        id = solicitarInput(f\"Digite o {formatarTexto_negrito(\"id\")} do vendedor que deseja atualizar: \", isRequired=True)\n        filtro = {\"_id\": id}\n        vendedor = find_one(\"vendedor\", filtro)\n        if vendedor == None:\n            raise Exception(\"Vendedor não encontrado.\")\n        vendedor = Vendedor.fromDict(vendedor)\n        vendedorUpdate = criarVendedor(isRequired=False, vendedor=vendedor)\n        opcao = input(f\"\\nDeseja atualizar os {formatarTexto_negrito(\"produtos\")} do vendedor? (s/n): \")",
         "detail": "src.functions.atualizarVendedor",
         "documentation": {}
     },
@@ -2002,7 +2363,7 @@
         "kind": 2,
         "importPath": "src.functions.cadastrarCompra",
         "description": "src.functions.cadastrarCompra",
-        "peekOfCode": "def cadastrarCompra():\n    pass",
+        "peekOfCode": "def cadastrarCompra():\n    try:\n        compra = criarCompra(isRequired=True)\n        compra = menuCampoUsuario(compra)\n        compra = menuCampoProdutos(compra)\n        compra.calcularValorTotal()\n        compra.validate()\n        if compra:\n            result = insert_one(\"compra\", compra.toDict())\n            if result:",
         "detail": "src.functions.cadastrarCompra",
         "documentation": {}
     },
@@ -2043,11 +2404,20 @@
         "documentation": {}
     },
     {
+        "label": "deletarTodasCompras",
+        "kind": 2,
+        "importPath": "src.functions.deletarCompra",
+        "description": "src.functions.deletarCompra",
+        "peekOfCode": "def deletarTodasCompras():\n    result = delete_all(\"compra\")\n    return result\ndef deletarCompra():\n    try:\n        id = solicitarInput(f\"Digite o {formatarTexto_negrito(\"id\")} da compra que deseja deletar: \", isRequired=True)\n        if id == \"delete_all\":\n            result = deletarTodasCompras()\n        else:\n            filtro = {\"_id\": id}",
+        "detail": "src.functions.deletarCompra",
+        "documentation": {}
+    },
+    {
         "label": "deletarCompra",
         "kind": 2,
         "importPath": "src.functions.deletarCompra",
         "description": "src.functions.deletarCompra",
-        "peekOfCode": "def deletarCompra():\n    pass",
+        "peekOfCode": "def deletarCompra():\n    try:\n        id = solicitarInput(f\"Digite o {formatarTexto_negrito(\"id\")} da compra que deseja deletar: \", isRequired=True)\n        if id == \"delete_all\":\n            result = deletarTodasCompras()\n        else:\n            filtro = {\"_id\": id}\n            compra = find_one(\"compra\", filtro)\n            if compra == None:\n                raise Exception(\"Compra não encontrada.\")",
         "detail": "src.functions.deletarCompra",
         "documentation": {}
     },
@@ -2119,7 +2489,7 @@
         "kind": 2,
         "importPath": "src.functions.listarCompra",
         "description": "src.functions.listarCompra",
-        "peekOfCode": "def listarCompra():\n    pass",
+        "peekOfCode": "def listarCompra():\n    try:\n        total = count_documents(\"compra\")\n        if total == None:\n            raise Exception(\"Erro ao conectar com o banco de dados.\")\n        if total == 0:\n            raise Exception(\"Nenhuma compra cadastrada.\")\n        dataCompra = input(f\"Digite a {formatarTexto_negrito(\"data\")} {formatarTexto_italico(\"(dd/mm/aaaa)\")} da compra: (deixe em branco para listar todas) \")\n        if dataCompra == \"\":\n            compras = find(\"compra\")",
         "detail": "src.functions.listarCompra",
         "documentation": {}
     },
@@ -2187,6 +2557,15 @@
         "documentation": {}
     },
     {
+        "label": "menuCampoUsuario",
+        "kind": 2,
+        "importPath": "src.layouts.menuCampoUsuario",
+        "description": "src.layouts.menuCampoUsuario",
+        "peekOfCode": "def menuCampoUsuario(colecao: Compra) -> Compra:\n    while True:\n        limparTerminal()\n        print(\"--\" * 21)\n        print(formatarTexto_negrito(\"Menu Campo Usuário\"))\n        print(\"1 - Setar Usuário\")\n        print(\"2 - Listar Usuários\")\n        print(\"--\" * 21)\n        opcao = input(\"\\nDigite a opção desejada: \")\n        match opcao:",
+        "detail": "src.layouts.menuCampoUsuario",
+        "documentation": {}
+    },
+    {
         "label": "menuCompra",
         "kind": 2,
         "importPath": "src.layouts.menuCompra",
@@ -2209,7 +2588,7 @@
         "kind": 2,
         "importPath": "src.layouts.menuPrincipal",
         "description": "src.layouts.menuPrincipal",
-        "peekOfCode": "def menuPrincipal():\n    while True:\n        limparTerminal()\n        print(\"==\" * 21)\n        print(formatarTexto_negrito(\"Menu Principal\"))\n        # print(\"1 - CRUD de Compras\")\n        print(\"2 - CRUD de Produtos\")\n        print(\"3 - CRUD de Usuários\")\n        print(\"4 - CRUD de Vendedores\")\n        print(\"0 - Sair\")",
+        "peekOfCode": "def menuPrincipal():\n    while True:\n        limparTerminal()\n        print(\"==\" * 21)\n        print(formatarTexto_negrito(\"Menu Principal\"))\n        print(\"1 - CRUD de Compras\")\n        print(\"2 - CRUD de Produtos\")\n        print(\"3 - CRUD de Usuários\")\n        print(\"4 - CRUD de Vendedores\")\n        print(\"0 - Sair\")",
         "detail": "src.layouts.menuPrincipal",
         "documentation": {}
     },
@@ -2245,7 +2624,7 @@
         "kind": 2,
         "importPath": "src.utils.criarCompra",
         "description": "src.utils.criarCompra",
-        "peekOfCode": "def criarCompra(isRequired: bool) -> Optional[Compra]:\n    try:\n        diaCompra = solicitarInput(f\"Digite o {formatarTexto_negrito(\"dia\")} da compra: \", isRequired)\n        mesCompra = solicitarInput(f\"Digite o {formatarTexto_negrito(\"mês\")} da compra: \", isRequired)\n        anoCompra = solicitarInput(f\"Digite o {formatarTexto_negrito(\"ano\")} da compra: \", isRequired)\n        dataCompra = f\"{diaCompra}/{mesCompra}/{anoCompra}\"\n        compra = Compra(dataCompra=dataCompra)\n        compra.validate()\n        return compra\n    except Exception as e:",
+        "peekOfCode": "def criarCompra(isRequired: bool, compra: Compra = None) -> Optional[Compra]:\n    try:\n        diaCompraText = f\"Digite o {formatarTexto_negrito(\"dia\")} da compra: \"\n        mesCompraText = f\"Digite o {formatarTexto_negrito(\"mês\")} da compra: \"\n        anoCompraText = f\"Digite o {formatarTexto_negrito(\"ano\")} da compra: \"\n        if compra:\n            diaCompraText = f\"Digite o novo {formatarTexto_negrito('dia')} da compra {formatarTexto_italico(f'(atual: {compra.dataCompra.split(\"/\")[0]})')}: \"\n            mesCompraText = f\"Digite o novo {formatarTexto_negrito('mês')} da compra {formatarTexto_italico(f'(atual: {compra.dataCompra.split(\"/\")[1]})')}: \"\n            anoCompraText = f\"Digite o novo {formatarTexto_negrito('ano')} da compra {formatarTexto_italico(f'(atual: {compra.dataCompra.split(\"/\")[2]})')}: \"\n        diaCompra = solicitarInput(diaCompraText, isRequired)",
         "detail": "src.utils.criarCompra",
         "documentation": {}
     },
